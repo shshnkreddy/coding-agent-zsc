@@ -3,6 +3,7 @@
 <p align="center"><strong>Can coding agents design policies that coordinate with partners they have never played with?</strong></p>
 
 <p align="center">
+  <a href="#cross-play-episodes">Episodes</a> ·
   <a href="#set-up-with-an-agent">Agent setup</a> ·
   <a href="#install-on-the-execution-host">Quickstart</a> ·
   <a href="#run-the-main-experiments">Paper experiments</a> ·
@@ -11,6 +12,49 @@
 </p>
 
 Each coding agent develops a two-player policy using only **self-play** feedback. After development, we freeze the policies and measure **cross-play** by assigning independently generated policies to opposite seats. The main suite covers six Overcooked V2 layouts, three Yōkai settings, and two Hanabi settings.
+
+## Cross-play episodes
+
+Each animation shows one cross-play episode. Astra controls the red player and Fable controls the blue player. Block Grid and Pipeline Cook are the two novel layouts.
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <strong>Grounded Coordination Simple</strong><br>
+      <img src="docs/episodes/grounded_coord_simple.gif" alt="Astra and Fable playing Grounded Coordination Simple" width="190">
+    </td>
+    <td align="center" valign="top">
+      <strong>Grounded Coordination Ring</strong><br>
+      <img src="docs/episodes/grounded_coord_ring.gif" alt="Astra and Fable playing Grounded Coordination Ring" width="190">
+    </td>
+    <td align="center" valign="top">
+      <strong>Test-time Simple</strong><br>
+      <img src="docs/episodes/test_time_simple.gif" alt="Astra and Fable playing Test-time Simple" width="190">
+    </td>
+    <td align="center" valign="top">
+      <strong>Test-time Wide</strong><br>
+      <img src="docs/episodes/test_time_wide.gif" alt="Astra and Fable playing Test-time Wide" width="190">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <strong>Demo Cook Simple</strong><br>
+      <img src="docs/episodes/demo_cook_simple.gif" alt="Astra and Fable playing Demo Cook Simple" width="190">
+    </td>
+    <td align="center" valign="top">
+      <strong>Demo Cook Wide</strong><br>
+      <img src="docs/episodes/demo_cook_wide.gif" alt="Astra and Fable playing Demo Cook Wide" width="190">
+    </td>
+    <td align="center" valign="top">
+      <strong>Block Grid</strong><br>
+      <img src="docs/episodes/block_grid_2p.gif" alt="Astra and Fable playing Block Grid" width="190">
+    </td>
+    <td align="center" valign="top">
+      <strong>Pipeline Cook</strong><br>
+      <img src="docs/episodes/pipeline_cook_2p.gif" alt="Astra and Fable playing Pipeline Cook" width="190">
+    </td>
+  </tr>
+</table>
 
 ## Set up with an agent
 
