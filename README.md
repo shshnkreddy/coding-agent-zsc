@@ -15,8 +15,6 @@ Each coding agent develops a two-player policy using only **self-play** feedback
 
 ## Cross-play episodes
 
-Each animation shows one cross-play episode. Astra controls the red player and Fable controls the blue player. Block Grid and Pipeline Cook are the two novel layouts.
-
 <table>
   <tr>
     <td align="center" valign="top">
