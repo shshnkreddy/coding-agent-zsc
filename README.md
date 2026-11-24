@@ -3,7 +3,7 @@
 <p align="center"><strong>Can coding agents design policies that coordinate with partners they have never played with?</strong></p>
 
 <p align="center">
-  <a href="#cross-play-episodes">Episodes</a> ·
+  <a href="#astra--fable-on-overcooked-v2">Episodes</a> ·
   <a href="#set-up-with-an-agent">Agent setup</a> ·
   <a href="#install-on-the-execution-host">Quickstart</a> ·
   <a href="#run-the-main-experiments">Paper experiments</a> ·
@@ -13,7 +13,7 @@
 
 Each coding agent develops a two-player policy using only **self-play** feedback. After development, we freeze the policies and measure **cross-play** by assigning independently generated policies to opposite seats. The main suite covers six Overcooked V2 layouts, three Yōkai settings, and two Hanabi settings.
 
-## Cross-play episodes
+## Astra × Fable on Overcooked V2
 
 <table>
   <tr>
