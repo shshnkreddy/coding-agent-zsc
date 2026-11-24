@@ -1,4 +1,4 @@
-<h1 align="center">Coding Agent ZSC</h1>
+<h1 align="center">Coding Agents Are Zero-Shot Coordinators</h1>
 
 <p align="center"><strong>Can coding agents design policies that coordinate with partners they have never played with?</strong></p>
 
