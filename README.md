@@ -175,6 +175,8 @@ Reusing an output directory preserves completed populations and cached evaluatio
 
 ## Hybrid policies
 
+Two copies of the same neural policy play Hanabi together. They learn from their team score and from the moves a saved code policy would make in each seat.
+
 ```text
                        LLM
                         │
@@ -187,9 +189,8 @@ Reusing an output directory preserves completed populations and cached evaluatio
          Agent A ◀─ self-play ─▶ Agent B
 ```
 
-In two-player Hanabi, both seats use the same recurrent neural policy and keep their own memory. Their sampled actions drive the game. A frozen code policy sees each seat’s local history and supplies action labels. The student learns from the team reward through PPO and from legal teacher actions through cross-entropy.
-
-Train with a saved Astra policy using the runtime image built above:
+<details>
+<summary>Train with a saved Astra policy</summary>
 
 ```sh
 mkdir -p runs/hybrid
@@ -199,7 +200,9 @@ docker run --rm --user "$(id -u):$(id -g)" \
     --teacher paper_policies/astra_high/hanabi_2p/seed-0 --output /out/astra-seed-0
 ```
 
-The trainer writes `student.msgpack`, training metrics, and a snapshot of the teacher to the output directory. Set `--ce-weight` to adjust supervision (default `0.1`). For ordinary self-play, omit `--teacher` and pass `--ce-weight 0`. The trainer also supports `--env hanabi_2p_h_group_level_1`.
+The trained policy is saved to `runs/hybrid/astra-seed-0/student.msgpack`.
+
+</details>
 
 [License](runtime/LICENSE) · [Third-party notices](runtime/THIRD_PARTY_NOTICES.md)
 
