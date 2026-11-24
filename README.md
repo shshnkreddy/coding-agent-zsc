@@ -167,8 +167,6 @@ coding-zsc-between --env grounded_coord_simple \
   --population claude=runs/claude/grounded_coord_simple --output reports/between
 ```
 
-Reusing an output directory preserves completed populations and cached evaluation cells. If generation stopped with an incomplete population, use a fresh output directory to regenerate it.
-
 </details>
 
 ## Hybrid policies
