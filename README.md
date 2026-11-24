@@ -7,7 +7,6 @@
   <a href="#set-up-with-an-agent">Agent setup</a> ·
   <a href="#install-on-the-execution-host">Quickstart</a> ·
   <a href="#run-one-environment">Run one environment</a> ·
-  <a href="#reproduce-the-main-paper-results">Paper experiments</a> ·
   <a href="#results">Results</a> ·
   <a href="coding_agent_zsc/">Tasks</a>
 </p>
@@ -84,7 +83,7 @@ autoastra preview coding_agent_zsc.hanabi.two_player_h_group_level_1:p0 --output
 
 ## Set up model access
 
-On the Linux host that will run the experiments, install the agent CLI and configure its credentials. For the full paper grid, set up both Codex and Claude Code. For a single-model run through OpenRouter, export `OPENROUTER_API_KEY` in the launch shell and pass `--provider openrouter --model PROVIDER/MODEL` to `coding-zsc`.
+On the Linux host that will run the experiments, install the agent CLI and configure its credentials. For a single-model run through OpenRouter, export `OPENROUTER_API_KEY` in the launch shell and pass `--provider openrouter --model PROVIDER/MODEL` to `coding-zsc`.
 
 For sign-in instructions and the key each provider uses, expand **Configure model access** in the [AutoAstra quickstart](https://github.com/shshnkreddy/autoastra#run-the-demo).
 
@@ -93,44 +92,28 @@ For sign-in instructions and the key each provider uses, expand **Configure mode
 Start with **Cat and Dog**. With Codex configured, this command runs six independent seeds in parallel, then evaluates the six selected policies in all 36 ordered pairings.
 
 ```sh
-coding-zsc --env cat_dog --jobs 6 --output runs/cat-dog
+coding-zsc --model gpt-6.1-sol --env cat_dog --jobs 6 --output runs/cat-dog
 ```
 
-Open `runs/cat-dog/reports/cat_dog/summary.json` for the self-play (SP) and cross-play (IXP) scores, or `xp.csv` in the same directory for the full matrix. To try another environment, replace `cat_dog` with its ID and choose a new output directory.
-
-## Reproduce the main paper results
-
-The full experiment runs **462 sessions** across seven models, eleven environments, and six seeds. Each seed uses its matching prompt variant (`0/p0` through `5/p5`). You’ll need access to all seven models. [Model registry](coding_agent_zsc/experiment.py)
-
-```sh
-# Inspect the plan
-coding-zsc --paper-models --jobs 6 --output runs/paper --dry-run
-
-# Generate the policies and score cross-play within and between models
-coding-zsc --paper-models --jobs 6 --output runs/paper
-```
+Open `runs/cat-dog/reports/cat_dog/summary.json` for the self-play (SP) and cross-play (IXP) scores, or `xp.csv` in the same directory for the full matrix. To run another model or environment, change `--model` or `--env` and choose a new output directory.
 
 <details>
-<summary><strong>Experiment settings and additional suites</strong></summary>
+<summary><strong>Experiment settings</strong></summary>
 
 | Setting | Default |
 | --- | --- |
 | Development | Two hours per seed, unlimited tokens and evaluations. Each candidate gets 1,024 self-play episodes and a 600-second evaluation timeout. |
-| Selection | The paper grid uses the agent’s nominated revision. Ordinary runs use the best development score. Override with `--selection model` or `--selection best-fitness`. |
+| Selection | Uses the best development score. Pass `--selection model` to use the agent’s nominated revision. |
 | Parallelism | One model and environment at a time. `--jobs` controls concurrent seeds (1–6, default 1). |
 | Held-out scoring | 1,024 episodes per ordered policy pair, with common root seed `2000003`. |
 
-The archived grid used high reasoning effort. Set `model_reasoning_effort = "high"` in the dedicated Codex profile’s `config.toml`. The bundled image sets `CLAUDE_CODE_EFFORT_LEVEL=high`. Fresh runs can vary with model availability, sampling, harness versions, and hardware.
-
-To run all eleven main environments with one model, use `coding-zsc --model gpt-6.1-sol --jobs 6 --output runs/sol`. Use `--suite novel` for Block Grid and Pipeline Cook, `--suite cat-dog` for Cat and Dog, or `--suite all` for all 14 tasks. Set `AUTOASTRA_ZSC_IMAGE` to use an existing compatible image.
+Seeds 0–5 use prompt variants p0–p5 respectively. Set `AUTOASTRA_ZSC_IMAGE` to use an existing compatible image.
 
 </details>
 
 ## Results
 
 Each model’s `reports/<environment>/xp.csv` is a 6 × 6 matrix. **SP** averages the six diagonal scores, where one policy plays both seats. **IXP** averages the 30 off-diagonal scores, where the seats use policies from different seeds. A heatmap and JSON summary sit beside the CSV. The final policies and experiment ledgers live under each environment’s `seed-0/` through `seed-5/` directories.
-
-For the full grid, `between/<environment>/between.csv` compares models. Rows identify the seat-0 model and columns the seat-1 model. Each entry averages 30 pairings with unequal seed IDs.
 
 <details>
 <summary><strong>Score existing runs</strong></summary>
