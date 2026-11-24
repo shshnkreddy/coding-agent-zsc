@@ -11,7 +11,7 @@
   <a href="coding_agent_zsc/">Tasks</a>
 </p>
 
-Each coding agent develops a two-player policy using only **self-play** feedback. After development, we freeze the policies and measure **cross-play** by assigning independently generated policies to opposite seats. The main suite covers six Overcooked V2 layouts, three Yōkai settings, and two Hanabi settings.
+Each coding agent develops a two-player policy using only **self-play** feedback. We measure **cross-play** by pairing independently developed policies. The main suite covers six Overcooked V2 layouts, three Yōkai settings, and two Hanabi settings.
 
 <a name="astra--fable-on-overcooked-v2"></a>
 
