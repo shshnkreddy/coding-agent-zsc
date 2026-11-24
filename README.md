@@ -9,6 +9,7 @@
   <a href="#task-previews">Task previews</a> ·
   <a href="#run-one-environment">Run one environment</a> ·
   <a href="#results">Results</a> ·
+  <a href="#hybrid-policies">Hybrid policies</a> ·
   <a href="coding_agent_zsc/">Tasks</a>
 </p>
 
@@ -169,6 +170,34 @@ coding-zsc-between --env grounded_coord_simple \
 Reusing an output directory preserves completed populations and cached evaluation cells. If generation stopped with an incomplete population, use a fresh output directory to regenerate it.
 
 </details>
+
+## Hybrid policies
+
+```text
+                       LLM
+                        │
+                        ▼
+                Fixed code policy
+                        │
+            Cross-entropy supervision
+            ┌───────────┴───────────┐
+            ▼                       ▼
+         Agent A ◀─ self-play ─▶ Agent B
+```
+
+In two-player Hanabi, both seats use the same recurrent neural policy and keep their own memory. Their sampled actions drive the game. A frozen code policy sees each seat’s local history and supplies action labels. The student learns from the team reward through PPO and from legal teacher actions through cross-entropy.
+
+Train with a saved Astra policy using the runtime image built above:
+
+```sh
+mkdir -p runs/hybrid
+docker run --rm --user "$(id -u):$(id -g)" \
+  -v "$PWD:/repo:ro" -v "$PWD/runs/hybrid:/out" -w /repo autoastra-zsc:cpu \
+  python scripts/train_hybrid.py --env hanabi_2p \
+    --teacher paper_policies/astra_high/hanabi_2p/seed-0 --output /out/astra-seed-0
+```
+
+The trainer writes `student.msgpack`, training metrics, and a snapshot of the teacher to the output directory. Set `--ce-weight` to adjust supervision (default `0.1`). For ordinary self-play, omit `--teacher` and pass `--ce-weight 0`. The trainer also supports `--env hanabi_2p_h_group_level_1`.
 
 [License](runtime/LICENSE) · [Third-party notices](runtime/THIRD_PARTY_NOTICES.md)
 
