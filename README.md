@@ -107,7 +107,7 @@ Open `runs/cat-dog/reports/cat_dog/summary.json` for the self-play (SP) and cros
 | Parallelism | One model and environment at a time. `--jobs` controls concurrent seeds (1–6, default 1). |
 | Held-out scoring | 1,024 episodes per ordered policy pair, with common root seed `2000003`. |
 
-Seeds 0–5 use prompt variants p0–p5 respectively. Set `AUTOASTRA_ZSC_IMAGE` to use an existing compatible image.
+Seeds 0–5 use prompt variants p0–p5 respectively.
 
 </details>
 
