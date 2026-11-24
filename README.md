@@ -17,8 +17,7 @@ Each coding agent develops a two-player policy using only **self-play** feedback
 Paste this into your coding agent from the repository checkout:
 
 ```text
-Set up this repository on my Linux Docker host. Preview the Hanabi H-group task
-and show me the six-seed plan for Grounded Coordination Simple using --dry-run.
+Set up this repository on my Linux Docker host.
 ```
 
 ## Install on the execution host
