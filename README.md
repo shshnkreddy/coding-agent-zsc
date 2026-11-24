@@ -81,6 +81,12 @@ This installs AutoAstra 0.1.0 and builds the game runtime. To inspect what the a
 autoastra preview coding_agent_zsc.hanabi.two_player_h_group_level_1:p0 --output previews/hanabi
 ```
 
+## Set up model access
+
+On the Linux host that will run the experiments, install the agent CLI and configure its credentials. For the full paper grid, set up both Codex and Claude Code. For a single-model run through OpenRouter, export `OPENROUTER_API_KEY` in the launch shell and pass `--provider openrouter --model PROVIDER/MODEL` to `coding-zsc`.
+
+For sign-in instructions and the key each provider uses, expand **Configure model access** in the [AutoAstra quickstart](https://github.com/shshnkreddy/autoastra#run-the-demo).
+
 ## Run the main experiments
 
 The paper grid has **462 sessions**: seven models × eleven environments × six seeds. Each seed receives its matching prompt variant (`0/p0` through `5/p5`), so seed and wording vary together. The first command prints the plan. The second launches generation and held-out scoring.
@@ -90,7 +96,7 @@ coding-zsc --paper-models --jobs 6 --output runs/paper --dry-run
 coding-zsc --paper-models --jobs 6 --output runs/paper
 ```
 
-The full grid requires access to the seven historical models. For one environment with your configured provider, run `coding-zsc --env grounded_coord_simple --jobs 6 --output runs/grounded`. [Model registry](coding_agent_zsc/experiment.py) · [AutoAstra provider setup](https://github.com/shshnkreddy/autoastra#run-the-demo)
+The full grid requires access to the seven historical models. For one environment with your configured provider, run `coding-zsc --env grounded_coord_simple --jobs 6 --output runs/grounded`. [Model registry](coding_agent_zsc/experiment.py)
 
 <details>
 <summary><strong>Experiment settings and additional suites</strong></summary>
