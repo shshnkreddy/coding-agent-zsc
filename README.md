@@ -87,7 +87,7 @@ autoastra preview coding_agent_zsc.hanabi.two_player_h_group_level_1:p0 \
   --output previews/hanabi_2p_h_group_level_1-p0 --print-to previews/hanabi-p0.md
 ```
 
-Use `--provider anthropic` for Claude Code. To regenerate every saved preview from the checkout, run `python scripts/preview_main.py`.
+Use `--provider anthropic` for Claude Code.
 
 <details>
 <summary><strong>Browse saved previews for the main experiments</strong></summary>
