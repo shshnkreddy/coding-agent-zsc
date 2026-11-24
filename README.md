@@ -186,7 +186,7 @@ This method uses code policies to guide self-play training.
             Cross-entropy supervision
             ┌───────────┴───────────┐
             ▼                       ▼
-         Agent A ◀─ self-play ─▶ Agent B
+           π_θ ◀─── self-play ───▶ π_θ
 ```
 
 <details>
