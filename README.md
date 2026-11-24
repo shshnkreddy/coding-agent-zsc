@@ -95,7 +95,7 @@ With Codex configured, this command runs six independent seeds in parallel, then
 coding-zsc --model gpt-6.1-sol --env cat_dog --jobs 6 --output runs/cat-dog
 ```
 
-Open `runs/cat-dog/reports/cat_dog/summary.json` for the self-play (SP) and cross-play (IXP) scores, or `xp.csv` in the same directory for the full matrix. To run another model or environment, change `--model` or `--env` and choose a new output directory.
+Open `runs/cat-dog/reports/cat_dog/summary.json` for the self-play (SP) and cross-play (IXP) scores, or `xp.csv` in the same directory for the full matrix.
 
 <details>
 <summary><strong>Experiment settings</strong></summary>
