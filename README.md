@@ -15,6 +15,8 @@
 
 Each coding agent develops a two-player policy using only **self-play** feedback. We measure **cross-play** by pairing independently developed policies. The main suite covers six Overcooked V2 layouts, three Yōkai settings, and two Hanabi settings.
 
+This codebase uses the autoresearch agent from [AutoAstra](https://github.com/shshnkreddy/autoastra) to develop policies through an edit–evaluate–record loop. See the [AutoAstra quickstart](https://github.com/shshnkreddy/autoastra#run-the-demo) for setup instructions and a demo.
+
 <a name="astra--fable-on-overcooked-v2"></a>
 
 ## Astra 🔴 × Fable 🔵 on Overcooked V2
