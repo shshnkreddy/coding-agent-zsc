@@ -50,17 +50,17 @@ This codebase uses the autoresearch agent from [AutoAstra](https://github.com/sh
       <img src="docs/episodes/demo_cook_wide.gif" alt="Astra and Fable playing Demo Cook Wide" width="190">
     </td>
     <td align="center" valign="top">
-      <strong>Block Grid<sup>*</sup></strong><br>
+      <strong>Block Grid<sup>†</sup></strong><br>
       <img src="docs/episodes/block_grid_2p.gif" alt="Astra and Fable playing Block Grid" width="190">
     </td>
     <td align="center" valign="top">
-      <strong>Pipeline Cook<sup>*</sup></strong><br>
+      <strong>Pipeline Cook<sup>†</sup></strong><br>
       <img src="docs/episodes/pipeline_cook_2p.gif" alt="Astra and Fable playing Pipeline Cook" width="190">
     </td>
   </tr>
 </table>
 
-<sup>*</sup> Novel envs
+<sup>†</sup> Novel environments
 
 ## Set up with an agent
 
