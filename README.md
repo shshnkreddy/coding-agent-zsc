@@ -89,7 +89,7 @@ For sign-in instructions and the key each provider uses, expand **Configure mode
 
 ## Run one environment
 
-Start with **Cat and Dog**. With Codex configured, this command runs six independent seeds in parallel, then evaluates the six selected policies in all 36 ordered pairings.
+With Codex configured, this command runs six independent seeds in parallel, then evaluates the six selected policies in all 36 ordered pairings.
 
 ```sh
 coding-zsc --model gpt-6.1-sol --env cat_dog --jobs 6 --output runs/cat-dog
