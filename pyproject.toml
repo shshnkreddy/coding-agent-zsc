@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coding-agent-zsc"
+version = "0.1.0"
+description = "Six-seed zero-shot coordination experiments with AutoAstra."
+requires-python = ">=3.11"
+dependencies = ["autoastra==0.1.0"]
+
+[project.scripts]
+coding-zsc = "coding_agent_zsc.experiment:main"
+coding-zsc-xp = "coding_agent_zsc.xp:main"
+coding-zsc-between = "coding_agent_zsc.between:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["coding_agent_zsc", "coding_agent_zsc.*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.yaml", "*.md", "paraphrases/*/*.md", "conventions/**/*"]

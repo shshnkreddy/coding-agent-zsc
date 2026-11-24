@@ -1,0 +1,97 @@
+> Copied from [H-group: Good Touch Principle (Question 2)](https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-2.mdx). CC BY-SA 4.0; offline formatting and scoped omissions are recorded in [the source manifest](../../source_manifest.json).
+
+# Good Touch Principle (Question 2)
+
+## Question
+
+- What action should Alice perform?
+- If Alice should give a clue, what _card note_ will be written on the focused card? (Be specific.)
+
+[Example diagram: GoodTouchPrincipleQuestion2](../../examples/good-touch-principle-question-2/good-touch-principle-question-2.yml)
+
+```yaml
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 3
+  - p: 3
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: p1
+        border: false
+      - type: p5
+        border: false
+      - type: r4
+        border: false
+      - type: b1
+        border: false
+      - type: r2
+        border: false
+  - cards:
+      - type: g2
+        border: false
+      - type: p2
+        border: false
+      - type: r3
+      - type: r4
+      - type: g3
+```
+
+## Solution
+
+- Alice needs to give a _Play Clue_ to Bob's red 2 before it is discarded.
+- If Alice clues red, then it would focus the red 2, but the red 4 would be duplicated (because it is already clued in Cathy's hand).
+- If Alice clues number 2, then it would only touch the red 2.
+- Thus, Alice should clue number 2 to Bob.
+- Bob will write a _card note_ with the following identities:
+  - red 2 (as a _Play Clue_)
+  - yellow 2 (as a _2 Save_)
+- (Bob knows that it cannot be a _2 Save_ on a green 2 because that card is present in Cathy's hand and it is not on chop yet.)
+
+[Example diagram: GoodTouchPrincipleAnswer2](../../examples/good-touch-principle-question-2/good-touch-principle-answer-2.yml)
+
+```yaml
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 3
+  - p: 3
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: p1
+        border: false
+      - type: p5
+        border: false
+      - type: r4
+        border: false
+      - type: b1
+        border: false
+      - type: r2
+        clue: 2
+        middleNote: r2, y2
+        below: sp
+  - cards:
+      - type: g2
+        border: false
+      - type: p2
+        border: false
+      - type: r3
+      - type: r4
+      - type: g3
+```

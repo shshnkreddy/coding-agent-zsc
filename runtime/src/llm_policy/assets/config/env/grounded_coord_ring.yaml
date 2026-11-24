@@ -1,0 +1,10 @@
+name: grounded_coord_ring
+env_name: overcooked_v2
+env_kwargs:
+  layout: grounded_coord_ring
+  agent_view_size: 2
+  negative_rewards: true
+  sample_recipe_on_delivery: true
+  random_agent_positions: true
+  fix_obs_shape: true
+weight: 1.0

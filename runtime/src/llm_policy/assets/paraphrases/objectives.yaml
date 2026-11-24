@@ -1,0 +1,194 @@
+p1:
+  pairing:
+    separate_roles: either role of this joint policy works with the complementary role of an independently generated policy
+    shared_local: your local policy works with an independently generated partner policy, with both player positions evaluated
+    three_role_abb: agent_0 from this joint policy works with agent_1 and agent_2 from one independently generated joint policy
+  SP:
+    instruction: Optimize exclusively for expected episode return in self-play.
+    selection_rule: >-
+      Keep in policy.py the candidate attaining the greatest authoritative development
+      mean self-play episode return. Minimum return and return variance serve only
+      for diagnosis or for resolving ties in that mean. Episode capture rate checks
+      rollout integrity; it measures neither task success nor policy quality.
+  XP:
+    instruction: >-
+      Optimize expected cooperative episode return when {pairing}. Partners are generated
+      independently: shared strategies, role assignments, and communication conventions
+      cannot be presumed. Aim for competent coordination grounded in locally observable
+      evidence and robust to convention differences. Self-play return diagnoses competence;
+      it is not the quantity to optimize.
+    selection_rule: >-
+      Leave in policy.py the candidate that, in your judgment, offers the greatest expected
+      return with independently generated partners. Base that judgment on your analysis
+      and available evaluation evidence, not simply on which candidate scores highest
+      in self-play. XP is the primary metric: cooperative episode return with independently
+      generated policies. It is measured after multiple independent searches have produced
+      their policies, not inside this isolated search. Available self-play rollouts assess
+      basic competence and help diagnose failures. Do not depend on a private convention
+      that works only when both roles execute this same policy.
+  h_group_SP: Both players run your policy, using the supplied H-group Level 1 conventions as their shared coordination protocol.
+  h_group_XP: >-
+    Optimize expected cooperative episode return with independently generated policies
+    that follow H-group Level 1 conventions, evaluated in both player positions. Every
+    partner receives the same pinned convention context. Treat the documented convention
+    meanings as shared, but allow different implementations, tactical choices, risk
+    thresholds, and tie-breaking where those conventions leave choices open. Seek
+    competent play and robust coordination with these convention-following partners.
+    Self-play return diagnoses competence; the target is cross-play performance with
+    independently generated convention-following policies.
+p2:
+  pairing:
+    separate_roles: pairing either role of this joint policy with the complementary role from an independently generated policy
+    shared_local: pairing your local policy with an independently generated partner policy and evaluating both player positions
+    three_role_abb: pairing agent_0 from this joint policy with agent_1 and agent_2 from one independently generated joint policy
+  SP:
+    instruction: Expected self-play episode return is the sole optimization target; maximize it.
+    selection_rule: >-
+      Episode capture rate is only a rollout-integrity check, not a measure of task success
+      or candidate quality. Compare candidates by authoritative development mean self-play
+      episode return and leave the highest-mean policy in policy.py. Consult minimum return
+      and return variance only for diagnosis or to break a tie between equal means.
+  XP:
+    instruction: >-
+      A partner generated independently need not share your strategy, role assignment,
+      or communication conventions. Maximize expected cooperative episode return from
+      {pairing}. Pursue competent, convention-robust coordination using locally observable
+      evidence. Treat self-play return as a competence diagnostic rather than the
+      optimization objective.
+    selection_rule: >-
+      Self-play rollouts are available to check basic competence and investigate failures.
+      They do not directly measure the primary metric, XP: cooperative episode return
+      with independently generated policies. That metric is evaluated only after many
+      independent policy searches have finished; it cannot be measured within this
+      isolated search. Your final policy.py should contain the policy you judge most
+      likely to maximize expected cross-play return with independently generated partners.
+      Use available evaluation evidence and your analysis in choosing it. The best
+      self-play candidate need not be the best cross-play candidate. Avoid private
+      conventions whose success requires both roles to use this same policy.
+  h_group_SP: Use the supplied H-group Level 1 conventions for shared coordination; both players execute your policy.
+  h_group_XP: >-
+    All partners have the same pinned H-group Level 1 convention context, and the partner
+    policies are generated independently. Maximize expected cooperative episode return
+    with these convention-following policies in both player positions. Coordinate
+    competently and robustly using the shared convention meanings. Where the conventions
+    permit choices, partners may differ in implementation, tactics, risk thresholds,
+    and tie-breaking. Self-play return is a competence diagnostic, not the objective:
+    optimize cross-play performance with independently generated convention-following partners.
+p3:
+  pairing:
+    separate_roles: either role in this joint policy is coupled to the complementary role in an independently generated policy
+    shared_local: your local policy is coupled to an independently generated partner policy, with both player positions evaluated
+    three_role_abb: agent_0 in this joint policy is coupled to agent_1 and agent_2 in one independently generated joint policy
+  SP:
+    instruction: Maximize the expected return of a self-play episode, and optimize nothing else.
+    selection_rule: >-
+      Selection is determined by the authoritative development mean self-play episode return:
+      the policy with the largest mean belongs in policy.py. Return minima and variances
+      may inform diagnosis or break ties when means are equal, but are not other selection
+      objectives. Episode capture rate diagnoses rollout integrity only; it is neither
+      task success nor policy quality.
+  XP:
+    instruction: >-
+      Competent coordination should rely on locally observable evidence and remain robust
+      to different conventions. The objective is maximum expected cooperative episode
+      return when {pairing}. Because partners are independently generated, do not presume
+      agreement about strategies, roles, or communication conventions. Self-play return
+      helps diagnose competence but is not the optimization target.
+    selection_rule: >-
+      The objective is XP, meaning cooperative episode return with independently generated
+      policies. Evaluation of XP occurs after independent searches produce their policies;
+      this isolated search cannot measure it. Use the self-play rollouts you have for
+      competence checks and failure diagnosis. Choose the final contents of policy.py
+      according to your judgment of highest expected cross-play return with independently
+      generated partners, informed by analysis and available evaluation evidence.
+      Highest self-play return alone need not identify that policy. Reject reliance on
+      a private convention that succeeds only if both roles run this same policy.
+  h_group_SP: Coordinate through the supplied H-group Level 1 conventions, which are the shared protocol for both players running your policy.
+  h_group_XP: >-
+    Seek competent, robust cooperation with independently generated policies that follow
+    H-group Level 1 conventions. The objective is their expected cooperative episode
+    return with your policy, evaluated in both player positions. Partners all receive
+    the same pinned convention context and share its meanings. Choices not settled by
+    those conventions may differ, including implementation, tactical choices, risk
+    thresholds, and tie-breaking. Self-play return is useful to diagnose competence;
+    maximize cross-play performance with independently generated convention-following
+    partners instead.
+p4:
+  pairing:
+    separate_roles: using either role from this joint policy alongside the complementary role from an independently generated policy
+    shared_local: using your local policy alongside an independently generated partner policy, evaluated in both player positions
+    three_role_abb: using agent_0 from this joint policy alongside agent_1 and agent_2 from one independently generated joint policy
+  SP:
+    instruction: Pursue the highest expected self-play episode return as the only objective.
+    selection_rule: >-
+      Use minimum return and return variance to investigate behavior or settle ties in
+      mean return, and for no other selection purpose. Leave policy.py containing the
+      policy with the highest authoritative development mean self-play episode return.
+      Episode capture rate is a diagnostic of rollout integrity, not an indicator of
+      task success or policy quality.
+  XP:
+    instruction: >-
+      Self-play return is useful for checking competence, but it is not what you should
+      maximize. Maximize expected cooperative episode return by {pairing}. Independently
+      generated partners cannot be assumed to share strategies, role assignments, or
+      communication conventions. Seek competent coordination that uses locally observable
+      evidence and is robust to convention differences.
+    selection_rule: >-
+      Do not select purely by highest self-play score: it need not mark the best policy
+      for cross-play. Instead, leave in policy.py the candidate you judge most likely
+      to maximize expected return with independently generated partners, drawing on
+      your analysis and available evaluation evidence. The primary metric is XP,
+      cooperative episode return with independently generated policies. It is evaluated
+      after many independent searches have produced policies and is unavailable within
+      this isolated search. Available self-play rollouts check basic competence and
+      diagnose failures. Avoid a private convention that works only when both roles
+      use this same policy.
+  h_group_SP: The shared coordination protocol is the supplied H-group Level 1 conventions; follow it with both players executing your policy.
+  h_group_XP: >-
+    Self-play return provides a competence diagnostic, but optimize cross-play performance
+    with independently generated H-group Level 1 convention-following partners. Specifically,
+    maximize expected cooperative episode return in both player positions. Every partner
+    receives the same pinned convention context. Shared convention meanings can be assumed;
+    identical implementations, tactical choices, risk thresholds, and tie-breaking cannot
+    be assumed where those conventions leave choices open. Aim for competent play and
+    robust coordination with these convention-following agents.
+p5:
+  pairing:
+    separate_roles: matching either role of this joint policy with the complementary role from an independently generated policy
+    shared_local: matching your local policy with an independently generated partner policy and evaluating it in both player positions
+    three_role_abb: matching agent_0 of this joint policy with agent_1 and agent_2 of one independently generated joint policy
+  SP:
+    instruction: Make expected episode return under self-play as large as possible; this is the sole objective.
+    selection_rule: >-
+      Of the policies compared through authoritative development evaluation, retain in
+      policy.py the one with the greatest mean self-play episode return. Only use minimum
+      return and return variance as diagnostics or tie-breakers for equal means.
+      Episode capture rate concerns the integrity of rollouts alone and must not be
+      interpreted as task success or policy quality.
+  XP:
+    instruction: >-
+      Maximize the expected cooperative return per episode obtained by {pairing}. Seek
+      competent and convention-robust coordination from locally observable evidence.
+      Generation is independent across partners, so do not assume matching strategies,
+      role assignments, or communication conventions. Use self-play return to diagnose
+      competence, not as the optimization target.
+    selection_rule: >-
+      This isolated policy search offers self-play rollouts for checking basic competence
+      and diagnosing failures, not for measuring XP. XP, the primary metric, is cooperative
+      episode return with independently generated policies and is evaluated after many
+      independent policy searches yield their policies. At completion, policy.py must
+      hold the policy you judge most likely to achieve the highest expected cross-play
+      return with independently generated partners. Inform this judgment with analysis
+      and available evaluation evidence; the highest self-play score need not identify
+      that policy. Do not rely on private conventions that require both roles to use
+      this same policy in order to succeed.
+  h_group_SP: Both seats execute your policy and share the supplied H-group Level 1 conventions; follow those conventions as the coordination protocol.
+  h_group_XP: >-
+    Maximize expected cooperative return per episode with independently generated partners
+    following H-group Level 1 conventions, assessing both player positions. The same
+    pinned convention context is supplied to every partner. Seek competent play and
+    robust coordination with these agents: convention meanings are shared, while
+    implementations, tactical decisions, risk thresholds, and tie-breakers may vary
+    wherever choices remain open. Use self-play return as a diagnostic of competence,
+    not the target; the target is cross-play performance with independently generated
+    convention-following partners.

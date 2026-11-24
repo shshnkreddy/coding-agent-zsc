@@ -1,0 +1,147 @@
+> Copied from [H-group: Level 1 - Fundamentals](https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/level-1.mdx). CC BY-SA 4.0; offline formatting and scoped omissions are recorded in [the source manifest](../source_manifest.json).
+
+# Level 1 - Fundamentals
+
+## Conventions
+
+### The Chop
+
+- When players have to discard, they typically discard their rightmost unclued card.
+- A player's chop is formally defined as **the next unclued card that they would discard if they had nothing else to do**.
+- If a player has a clued card that is known to be useless, then they will typically **discard the useless card first**, before discarding their chop. (But the useless card does **not** count as the chop - their chop remains the rightmost unclued card.)
+
+### The Definition of Playable
+
+- _Playable_ is a property of a card. To start with, see the section on [_Delayed Play Clues_](beginner/delayed-play-clues.md) from the beginner's guide.
+- When we say that an unclued card is currently _playable_, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is _playable_, then what we really mean is that it would be legal for someone to give either a _Play Clue_ **or** a _Delayed Play Clue_ to the card.
+- In other words, if an unclued _playable_ card was given a _Delayed Play Clue_, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all of the in-between cards, if any, would be present and accounted for at the moment that the _Play Clue_ was given.
+
+### The Definition of Trash
+
+- Trash is a property of a card. A card is considered trash if it can never play on the stacks or if two or more copies of the card are currently _Clued_.
+- Since we play with _Good Touch Principle_, we intentionally avoid touching trash cards.
+- In rare cases, it can be possible for a card to be both _playable_ and trash at the same time.
+
+### Save Clues
+
+- You are **only** allowed to give a _Save Clue_ to a card that is on chop.
+  - This means that if a clue focuses a non-chop card, then it must be a _Play Clue_!
+- You are **not** allowed to give a _Save Clue_ to any card you want. You are **only** allowed to give a _Save Clue_ on these specific cards:
+  1. 5's (with a number 5 clue, as a _5 Save_)
+  1. 2's (with a number 2 clue, as a _2 Save_)
+  1. Critical cards (with either color or number)
+- Additionally, everyone in the group also agrees to never let anyone discard a (unique) playable card. However, a clue to a unique playable card is defined as a _Play Clue_, not a _Save Clue_.
+
+### Clue Focus
+
+The process for determining the focus of a clue is as follows:
+
+1. If no new cards were touched, then **the focus is on the leftmost re-touched card**.
+1. If the chop card was touched, then **the focus is on the chop**.
+1. Otherwise, **the focus is on the leftmost newly touched card**.
+
+This process is represented in the following flowchart:
+
+```mermaid
+flowchart TD;
+
+S(A clue is given.<br />What card is focused?)
+D1[/Did it touch one or more cards for the first time?\]
+D1Y([Yes])
+D1N([No])
+D1NL(The focus is on the left-most re-touched card.)
+D2[/Was the chop card touched?\]
+D2Y([Yes])
+D2N([No])
+D2YL(The focus is on the chop card.)
+D2NL(The focus is on the left-most newly-touched card.)
+
+class D1Y,D2Y node-yes
+class D1N,D2N node-no
+class S,D1NL,D2YL,D2NL node-act
+class D1,D2 node-dec
+
+S --> D1;
+D1 --> D1Y;
+D1 --> D1N;
+D1N --> D1NL;
+D1Y --> D2;
+D2 --> D2Y;
+D2 --> D2N;
+D2Y --> D2YL;
+D2N --> D2NL;
+```
+
+### Good Touch Principle
+
+- See the section on [_Good Touch Principle_](beginner/good-touch-principle.md) from the beginner's guide.
+
+### Save Principle
+
+- See the section on [_Save Principle_](beginner/save-principle.md) from the beginner's guide.
+
+### Minimum Clue Value Principle
+
+- See the section on [_Minimum Clue Value Principle_](beginner/minimum-clue-value-principle.md) from the beginner's guide.
+
+### The Early Game
+
+- The _Early Game_ is the period of time before any player has discarded their chop card.
+- Players **must** "extinguish" all of the available _Play Clues_ and _Save Clues_ on the board before ending the _Early Game_.
+  - As outlined in the [beginner's guide](beginner/minimum-clue-value-principle.md), "extinguishing" all the _Play Clues_ does **not** include giving _Tempo Clues_. _Tempo Clues_ do not meet _Minimum Clue Value Principle_, so in general, they should not be given.
+
+## Special Moves
+
+### The 5 Save
+
+- A _5 Save_ is when someone uses a number 5 clue to touch a previously-unclued 5 on someone's chop. (Everyone agrees that this is just a _Save Clue_ instead of a _Play Clue_.)
+- By definition, you can only perform a _5 Save_ with a number clue. (If a color clue was used to touch an unclued 5, then it would be a _Play Clue_ instead.)
+
+### The 2 Save
+
+- A _2 Save_ is when someone uses a number 2 clue to touch a previously-unclued 2 on someone's chop. (Everyone agrees that this is just a _Save Clue_ instead of a _Play Clue_.)
+- By definition, you can only perform a _2 Save_ with a number clue. (If a color clue was used to touch an unclued 2, then it would be a _Play Clue_ instead.)
+  - The exception is if the other copy of the 2 is in the discard pile. Then, touching the card with a color clue would be a _Critical Save_. But that would not be classified as a _2 Save_.
+
+#### The Visible Rule
+
+- Players are **not allowed** to perform a _2 Save_ on a 2 if the other copy of the 2 is visible in someone else's hand.
+
+#### Double Chop 2's
+
+- The exception to the _Visible Rule_ is when the same 2 is on two players' chops at the same time. In that situation, players are allowed to _2 Save_ either one. And if it is the _Early Game_, then players **must** save one of them before discarding to initiate the _Mid-Game_.
+
+### The Prompt
+
+- A _Prompt_ is when you get a player to play a clued card that was previously unknown.
+- If the player **was already going to play** the card, then **it isn't a _Prompt_**. _Prompts_ can only be on cards that were not going to play otherwise.
+- If a player is _Prompted_ and there are multiple cards in their hand that the _Prompt_ could apply to, they should play the **leftmost**.
+- An example of a _Prompt_ can be found in the [beginner's guide](beginner/prompt.md).
+
+### The Finesse
+
+- A _Finesse_ is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
+- _Finesses_ are covered in detail in the [beginner's guide](beginner/finesse.md).
+- _Finesses_ must be on "connecting" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "connecting" pair of cards.)
+- When a player is _Finessed_, they should blind-play their card right away in order to demonstrate it!
+
+### Finesse Position
+
+- A player's _Finesse Position_ refers to the slot that their **leftmost unclued card** is in.
+
+### Finessed Cards
+
+- Even though _Finessed_ cards are unclued, you can think of them as having an invisible clue on them. (Because they are already "gotten".)
+- Thus, if a clue touches a _Finessed_ card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "new" card introduced).
+
+### Prompts > Finesses
+
+- **_Prompts_ always take precedence over _Finesses_**.
+- This means that if Alice has to decide between:
+  1. playing a card in her hand with a red clue on it, and
+  1. blind-playing a potential red card from her _Finesse Position_
+- Then Alice should always play the clued card.
+
+## Challenge Questions
+
+The challenge questions for level 1 are listed in the [beginner's guide](beginner.md).

@@ -1,0 +1,16 @@
+name: restaurant_link_v1
+env_name: overcooked_v2
+env_kwargs:
+  layout: restaurant_link_v1
+  max_steps: 400
+  agent_view_size: 2
+  negative_rewards: true
+  sample_recipe_on_delivery: true
+  random_agent_positions: true
+  random_reset: false
+  start_cooking_interaction: false
+  indicate_successful_delivery: false
+  terminate_on_delivery: false
+  pot_cook_time: 20
+  fix_obs_shape: true
+weight: 1.0

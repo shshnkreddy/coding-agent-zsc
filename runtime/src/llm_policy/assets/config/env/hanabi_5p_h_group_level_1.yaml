@@ -1,0 +1,20 @@
+name: hanabi_5p_h_group_level_1
+env_name: hanabi
+env_kwargs:
+  num_agents: 5
+  num_colors: 5
+  num_ranks: 5
+  hand_size: 4
+  max_info_tokens: 8
+  max_life_tokens: 3
+  num_cards_of_rank: [3, 2, 2, 2, 1]
+llm_policy:
+  policy_structure: shared_local
+  belief_mode: exact_literal
+  fix_final_life_termination: true
+  convention_profile: h_group_level_1
+evaluation:
+  max_steps: 128
+score_min: 0
+score_max: 25
+weight: 1.0

@@ -1,0 +1,22 @@
+name: static_cat_dog_3_ingredient
+env_name: overcooked_v2
+env_kwargs:
+  layout: static_cat_dog_3_ingredient
+  possible_recipes:
+    - [0]
+    - [1]
+    - [2]
+  pot_cook_time: 1
+  agent_view_size: 2
+  negative_rewards: true
+  indicator_activation_cost: 5.0
+  indicator_cost_on_successful_delivery: false
+  indicator_activation_time: 15
+  sample_recipe_on_delivery: false
+  terminate_on_delivery: true
+  random_agent_positions: true
+  max_steps: 15
+  fix_obs_shape: true
+score_min: -25.0
+score_max: 20.0
+weight: 1.0

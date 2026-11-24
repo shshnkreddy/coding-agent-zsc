@@ -1,0 +1,443 @@
+{
+  "actions": {
+    "down": 1,
+    "interact": 5,
+    "left": 2,
+    "right": 0,
+    "stay": 4,
+    "up": 3
+  },
+  "delivery_reward": 20,
+  "directions": {
+    "DOWN": 1,
+    "LEFT": 3,
+    "RIGHT": 2,
+    "UP": 0
+  },
+  "env_name": "overcooked_v2",
+  "initial_agent_positions": [
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "jaxmarl_version": "0.1.0",
+  "layout": {
+    "ascii_grid": "WWWWBXBWWWW\nWWW0 A 1WWW\nWWWWWPWWWWW\nW    A    W\n0  W3R3W  0\nW1WWWWWWW1W",
+    "configured_recipes": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "default_recipes": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "name": "demo_cook_wide",
+    "source": "installed JaxMARL layout"
+  },
+  "object_positions": {
+    "goal": [
+      [
+        0,
+        5
+      ]
+    ],
+    "ingredient_0": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "ingredient_1": [
+      [
+        1,
+        7
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        9
+      ]
+    ],
+    "ingredient_3": [
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "plate_pile": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "pot": [
+      [
+        2,
+        5
+      ]
+    ],
+    "recipe_indicator": [
+      [
+        4,
+        5
+      ]
+    ],
+    "wall": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        10
+      ]
+    ]
+  },
+  "observation": {
+    "dtype": "int32",
+    "shape": [
+      5,
+      5,
+      45
+    ]
+  },
+  "observation_channels": {
+    "dynamic": [
+      32,
+      38
+    ],
+    "ingredient_pile": [
+      28,
+      32
+    ],
+    "partner_direction": [
+      12,
+      16
+    ],
+    "partner_inventory": [
+      16,
+      22
+    ],
+    "partner_position": 11,
+    "pot_timer": 44,
+    "recipe": [
+      38,
+      44
+    ],
+    "self_direction": [
+      1,
+      5
+    ],
+    "self_inventory": [
+      5,
+      11
+    ],
+    "self_position": 0,
+    "static": [
+      22,
+      28
+    ]
+  },
+  "reset_randomizes_orientations": true,
+  "resolved": {
+    "agent_view_size": 2,
+    "indicate_successful_delivery": false,
+    "indicator_activation_cost": 5,
+    "indicator_activation_time": 10,
+    "indicator_cost_on_successful_delivery": false,
+    "max_steps": 400,
+    "negative_rewards": true,
+    "op_ingredient_permutations": null,
+    "possible_recipes": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "pot_capacity": 3,
+    "pot_cook_time": 20,
+    "random_agent_orientations": true,
+    "random_agent_positions": true,
+    "random_reset": false,
+    "sample_recipe_on_delivery": true,
+    "start_cooking_interaction": false,
+    "terminate_on_delivery": false
+  },
+  "runtime_contract": {
+    "max_height": 6,
+    "max_steps": 400,
+    "max_width": 11,
+    "num_agents": 2,
+    "num_ingredients": 4,
+    "observation_shape": [
+      5,
+      5,
+      45
+    ]
+  },
+  "schema_version": 2,
+  "spawn_regions": [
+    [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ]
+    ]
+  ],
+  "static_channel_order": [
+    "wall",
+    "goal",
+    "pot",
+    "recipe_indicator",
+    "button_indicator",
+    "plate_pile"
+  ]
+}

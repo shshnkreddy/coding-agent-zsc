@@ -1,0 +1,17 @@
+name: cat_dog
+env_name: cat_dog
+env_kwargs:
+  alice_bail_reward: 1.0
+  bob_bail_reward: 0.5
+  reveal_cost: 5.0
+  correct_reward: 10.0
+  wrong_reward: -10.0
+  alice_action_permutation: [0, 1, 2, 3]
+  bob_action_permutation: [0, 1, 2, 3]
+llm_policy:
+  policy_structure: separate_roles
+evaluation:
+  max_steps: 2
+score_min: -15.0
+score_max: 10.0
+weight: 1.0

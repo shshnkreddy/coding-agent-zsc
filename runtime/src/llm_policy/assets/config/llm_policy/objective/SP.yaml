@@ -1,0 +1,10 @@
+name: SP
+metric: mean_self_play_episode_return
+instruction: >-
+  Maximize only the expected self-play episode return.
+selection_rule: >-
+  Leave in policy.py the policy with the highest authoritative development
+  mean self-play episode return. Use minimum return and return variance only to diagnose or break ties
+  between candidates with the same mean return. Episode capture rate is a
+  rollout-integrity diagnostic, not task success or a policy-quality metric.
+evaluator: self_play

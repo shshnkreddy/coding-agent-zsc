@@ -1,0 +1,78 @@
+{
+  "actions": {
+    "end_game": 1067,
+    "inactive_noop": 0,
+    "move": [
+      10,
+      739
+    ],
+    "observe": [
+      1,
+      10
+    ],
+    "place_hint": [
+      743,
+      1067
+    ],
+    "reveal_hint": [
+      739,
+      743
+    ]
+  },
+  "card_multiplicity_per_color": 3,
+  "env_name": "yokai_grid_9_game",
+  "initial_active_player": 0,
+  "jaxmarl_version": "0.1.0",
+  "observation": {
+    "adjacency_matrix": {
+      "dtype": "uint8",
+      "shape": [
+        13,
+        13
+      ]
+    },
+    "legal_actions": {
+      "dtype": "bool",
+      "shape": [
+        1068
+      ]
+    },
+    "node_features": {
+      "dtype": "int8",
+      "shape": [
+        13,
+        13
+      ]
+    },
+    "positions": {
+      "dtype": "int32",
+      "shape": [
+        9,
+        2
+      ]
+    }
+  },
+  "runtime_contract": {
+    "adapter": "yokai",
+    "adapter_version": 1,
+    "deck_size": 9,
+    "grid_size": 9,
+    "max_steps": 32,
+    "memory_mode": "perfect",
+    "node_features": 13,
+    "num_actions": 1068,
+    "num_agents": 2,
+    "num_colors": 3,
+    "num_hints": 4,
+    "num_nodes": 13,
+    "obs_kind": "graph",
+    "past_colors_revealed": true,
+    "policy_structure": "shared_local",
+    "reward_mode": "upstream_sparse",
+    "score_max": 20,
+    "score_min": -4,
+    "upstream_commit": "7930c3041b01711c8a432c5161244f5ff7b3d682"
+  },
+  "schema_version": 2,
+  "substeps_per_turn": 4
+}

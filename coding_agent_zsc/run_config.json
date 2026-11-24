@@ -1,0 +1,6 @@
+{
+  "time_seconds": 7200,
+  "evaluation_timeout_seconds": 600,
+  "max_tokens": null,
+  "max_evaluations": null
+}

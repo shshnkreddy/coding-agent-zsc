@@ -1,0 +1,16 @@
+{
+  "repository": "https://git.cai.simtech.uni-stuttgart.de/public-projects/Yokai_env",
+  "commit": "7930c3041b01711c8a432c5161244f5ff7b3d682",
+  "original_sha256": {
+    "jaxmarl/environments/yokai/constants.py": "c0ca3f059b12210f3f838775adbe514a9eb69e26facab98c68ca5b05790ffb3c",
+    "jaxmarl/environments/yokai/yokai_grid.py": "c161dc181563d7c475e86ab457c604e8fe3674b70742feb17dd6789b056cbc14"
+  },
+  "compatibility_edits": [
+    "Import constants from envs.yokai.",
+    "Use installed JaxMARL spaces.Discrete for action-space metadata."
+  ],
+  "bug_fixes": [
+    "Drop out-of-grid neighbor targets before flattening move-mask indices, and combine repeated valid targets with scatter-max. This prevents coordinate aliasing and inconsistent legal masks across JIT contexts."
+  ],
+  "license": "Upstream LICENSE preserved verbatim; upstream package metadata separately says MIT."
+}

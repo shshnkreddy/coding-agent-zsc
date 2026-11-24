@@ -1,0 +1,12 @@
+name: yokai_2p_16c_standard
+env_name: yokai_grid_16_game
+env_kwargs:
+  num_agents: 2
+  obs_kind: graph
+  past_colors_revealed: false
+llm_policy:
+  policy_structure: shared_local
+  reward_mode: upstream_sparse
+evaluation:
+  max_steps: 56
+weight: 1.0

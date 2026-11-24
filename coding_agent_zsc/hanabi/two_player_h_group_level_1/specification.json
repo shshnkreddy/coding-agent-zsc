@@ -1,0 +1,100 @@
+{
+  "actions": {
+    "discard": [
+      0,
+      5
+    ],
+    "hint_color": [
+      10,
+      15
+    ],
+    "hint_rank": [
+      15,
+      20
+    ],
+    "inactive_noop": 20,
+    "play": [
+      5,
+      10
+    ]
+  },
+  "card_multiplicities_per_color": [
+    3,
+    2,
+    2,
+    2,
+    1
+  ],
+  "env_name": "hanabi",
+  "jaxmarl_version": "0.1.0",
+  "observation": {
+    "features": {
+      "dtype": "float32",
+      "shape": [
+        658
+      ]
+    },
+    "legal_actions": {
+      "dtype": "bool",
+      "shape": [
+        21
+      ]
+    }
+  },
+  "observation_blocks": {
+    "deck": [
+      127,
+      167
+    ],
+    "discards": [
+      203,
+      253
+    ],
+    "fireworks": [
+      167,
+      192
+    ],
+    "information_tokens": [
+      192,
+      200
+    ],
+    "last_action": [
+      253,
+      308
+    ],
+    "lives": [
+      200,
+      203
+    ],
+    "missing_cards": [
+      125,
+      127
+    ],
+    "native_knowledge": [
+      308,
+      658
+    ],
+    "partner_hand": [
+      0,
+      125
+    ]
+  },
+  "runtime_contract": {
+    "adapter": "hanabi",
+    "adapter_version": 1,
+    "fix_final_life_termination": true,
+    "hand_size": 5,
+    "max_info_tokens": 8,
+    "max_life_tokens": 3,
+    "max_steps": 128,
+    "num_actions": 21,
+    "num_agents": 2,
+    "num_colors": 5,
+    "num_ranks": 5,
+    "observation_size": 658,
+    "policy_structure": "shared_local",
+    "score_max": 25,
+    "score_min": 0
+  },
+  "schema_version": 2
+}

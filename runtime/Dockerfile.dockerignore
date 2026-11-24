@@ -1,0 +1,9 @@
+**
+!src/
+!src/llm_policy/
+!src/llm_policy/**
+!docker/
+!docker/llm_policy_jaxmarl/
+!docker/llm_policy_jaxmarl/**
+**/__pycache__/
+**/*.pyc

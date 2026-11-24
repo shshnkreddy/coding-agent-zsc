@@ -1,0 +1,14 @@
+name: block_grid
+env_name: overcooked_v2
+env_kwargs:
+  layout: block_grid
+  max_steps: 400
+  agent_view_size: 2
+  negative_rewards: true
+  sample_recipe_on_delivery: true
+  random_agent_positions: true
+  random_reset: false
+  start_cooking_interaction: false
+  indicate_successful_delivery: false
+  fix_obs_shape: true
+weight: 1.0

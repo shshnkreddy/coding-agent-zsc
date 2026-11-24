@@ -1,0 +1,1692 @@
+{
+  "schema_version": 1,
+  "profile": "h_group_level_1",
+  "source_repository": "https://github.com/hanabi/hanabi.github.io",
+  "source_revision": "a1b0e25ec3536b61dc48efe09468d534b5806962",
+  "archive_url": "https://codeload.github.com/hanabi/hanabi.github.io/tar.gz/a1b0e25ec3536b61dc48efe09468d534b5806962",
+  "archive_sha256": "87220a20050d7eb12add3e2c9b0f9c839cc6b35ea23ec62940feed5232681e68",
+  "license": "CC-BY-SA-4.0",
+  "omitted_pages": {
+    "docs/beginner/next-steps.mdx": "Human onboarding and game-lobby navigation."
+  },
+  "scope": "Level 1 reference and beginner chapters/questions only; no higher-level, variant, or extras pages.",
+  "files": {
+    "docs/beginner.md": {
+      "source_path": "docs/beginner.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner.mdx",
+      "source_sha256": "26566d7a56776569f0bc380608dbec5ab81d17b1d88aeda59dac1e2c83db7057",
+      "sha256": "6f96f047cd941441df1f6b998f329547e14cfb6903de97fed1e0cebcfeba1780",
+      "bytes": 986,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution.",
+        "Omitted human onboarding and practice-game prerequisites.",
+        "Omitted next-page navigation."
+      ]
+    },
+    "examples/card-layout/card-layout-1.yml": {
+      "source_path": "docs/beginner/card-layout/card-layout-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/card-layout/card-layout-1.yml",
+      "source_sha256": "5ce6cd967a5562cfb88d4f41bbda8dc5fd82cc76261ebe2460631474c373f82e",
+      "sha256": "5ce6cd967a5562cfb88d4f41bbda8dc5fd82cc76261ebe2460631474c373f82e",
+      "bytes": 898,
+      "changes": []
+    },
+    "examples/card-layout/card-layout-2.yml": {
+      "source_path": "docs/beginner/card-layout/card-layout-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/card-layout/card-layout-2.yml",
+      "source_sha256": "9169832655e82c0d12bcbbdc5f2c98a830eab9a4d0366271225b7cea85de239f",
+      "sha256": "9169832655e82c0d12bcbbdc5f2c98a830eab9a4d0366271225b7cea85de239f",
+      "bytes": 334,
+      "changes": []
+    },
+    "examples/card-layout/card-layout-3.yml": {
+      "source_path": "docs/beginner/card-layout/card-layout-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/card-layout/card-layout-3.yml",
+      "source_sha256": "ad86cea3a98fc983c574a0a47d0fd532df20e0dafa145c02944cdd74a0ef0324",
+      "sha256": "ad86cea3a98fc983c574a0a47d0fd532df20e0dafa145c02944cdd74a0ef0324",
+      "bytes": 359,
+      "changes": []
+    },
+    "docs/beginner/card-layout.md": {
+      "source_path": "docs/beginner/card-layout.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/card-layout.mdx",
+      "source_sha256": "85a99f3e15e6fe5dbf8b04851ab2637404fc4e47a84af4efd8785f7e41790188",
+      "sha256": "69c485c5db1207895ae2b9279f15699ba64b11249756af8c0cb295fde71182df",
+      "bytes": 3309,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution.",
+        "Omitted website solution-tab instructions; solutions are expanded locally."
+      ]
+    },
+    "examples/chop/chop-1.yml": {
+      "source_path": "docs/beginner/chop/chop-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop/chop-1.yml",
+      "source_sha256": "4303ff438e3dfcc7d6a1d3fd2f7d8c2d3110b48c17c9bf950d655a7ad1e9b300",
+      "sha256": "4303ff438e3dfcc7d6a1d3fd2f7d8c2d3110b48c17c9bf950d655a7ad1e9b300",
+      "bytes": 461,
+      "changes": []
+    },
+    "examples/chop/chop-2.yml": {
+      "source_path": "docs/beginner/chop/chop-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop/chop-2.yml",
+      "source_sha256": "dd0da1a704f24b23e6005107d50e3d8f0ac97760669f8847b388643a5c529052",
+      "sha256": "dd0da1a704f24b23e6005107d50e3d8f0ac97760669f8847b388643a5c529052",
+      "bytes": 373,
+      "changes": []
+    },
+    "docs/beginner/chop.md": {
+      "source_path": "docs/beginner/chop.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop.mdx",
+      "source_sha256": "9cea5c70003cc52b92a2450c3f537cb187169fd3649dea6bce95f24394a6aa2e",
+      "sha256": "9b744bd5d0cff445953c680551a38e6c16d516221cc4b7d772d2a6d8fc9d65f7",
+      "bytes": 2007,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/chop-question-1/chop-question-1.yml": {
+      "source_path": "docs/beginner/chop-question-1/chop-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-1/chop-question-1.yml",
+      "source_sha256": "ca6a4ddddb351aadb3b816dedab0e4e90ce85305c452ad8390ee4da5e69fa111",
+      "sha256": "ca6a4ddddb351aadb3b816dedab0e4e90ce85305c452ad8390ee4da5e69fa111",
+      "bytes": 215,
+      "changes": []
+    },
+    "examples/chop-question-1/chop-answer-1.yml": {
+      "source_path": "docs/beginner/chop-question-1/chop-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-1/chop-answer-1.yml",
+      "source_sha256": "d88e8f041782da8d9815ea9341842822c2c851b46b0f18e2cd5e209187a05ec5",
+      "sha256": "d88e8f041782da8d9815ea9341842822c2c851b46b0f18e2cd5e209187a05ec5",
+      "bytes": 235,
+      "changes": []
+    },
+    "docs/beginner/chop-question-1.md": {
+      "source_path": "docs/beginner/chop-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-1.mdx",
+      "source_sha256": "2189cbbb53293f47d05acf6849f1538f08fd1ee9511b6d9922f60a10bb098773",
+      "sha256": "a96e28becff51871a8674842b07c8a80df8e66dd32d7958d2626392da8bdb091",
+      "bytes": 1080,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/chop-question-2/chop-question-2.yml": {
+      "source_path": "docs/beginner/chop-question-2/chop-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-2/chop-question-2.yml",
+      "source_sha256": "238ea360b8ecb4bf57032b57bb97828d64224aceb6a5ffaa8bc1fc6d46e724e1",
+      "sha256": "238ea360b8ecb4bf57032b57bb97828d64224aceb6a5ffaa8bc1fc6d46e724e1",
+      "bytes": 149,
+      "changes": []
+    },
+    "examples/chop-question-2/chop-answer-2.yml": {
+      "source_path": "docs/beginner/chop-question-2/chop-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-2/chop-answer-2.yml",
+      "source_sha256": "f9fb0987287b7caa64557441c6330adc6e1c05e9868e35c0818980b6713fe395",
+      "sha256": "f9fb0987287b7caa64557441c6330adc6e1c05e9868e35c0818980b6713fe395",
+      "bytes": 169,
+      "changes": []
+    },
+    "docs/beginner/chop-question-2.md": {
+      "source_path": "docs/beginner/chop-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-2.mdx",
+      "source_sha256": "5247b2a5bbcae0ef418945fd28a5b068e6ddbdba13b2b80fca6c3b897679b5fb",
+      "sha256": "ab328a0bd76fd57d51adf54141c1bebd8a423279da11679c4cfe4d69394fe44a",
+      "bytes": 965,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/chop-question-3/chop-question-3.yml": {
+      "source_path": "docs/beginner/chop-question-3/chop-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-3/chop-question-3.yml",
+      "source_sha256": "1b7faa1b2340ef907628ea6836c34c8bfac6ce08984cd7a46fd5c0499c81e283",
+      "sha256": "1b7faa1b2340ef907628ea6836c34c8bfac6ce08984cd7a46fd5c0499c81e283",
+      "bytes": 149,
+      "changes": []
+    },
+    "examples/chop-question-3/chop-answer-3.yml": {
+      "source_path": "docs/beginner/chop-question-3/chop-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-3/chop-answer-3.yml",
+      "source_sha256": "d418bf318a4462e7942ef5a1ba28d559aae34c297231757d687588110a2ef1a7",
+      "sha256": "d418bf318a4462e7942ef5a1ba28d559aae34c297231757d687588110a2ef1a7",
+      "bytes": 169,
+      "changes": []
+    },
+    "docs/beginner/chop-question-3.md": {
+      "source_path": "docs/beginner/chop-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-3.mdx",
+      "source_sha256": "5a78062642c23b8202b2ed57cba944799d58dac714d6f692bcc2d6bb6192e03d",
+      "sha256": "1eb748b40d7244495dec04b744ce227fa41591ed86f4f8fba81e19dc51956d49",
+      "bytes": 952,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/chop-question-4/chop-question-4.yml": {
+      "source_path": "docs/beginner/chop-question-4/chop-question-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-4/chop-question-4.yml",
+      "source_sha256": "97c37a0d110ea8f0cc004682b1db14212127c08d193a64139ae05d851f0f4afd",
+      "sha256": "97c37a0d110ea8f0cc004682b1db14212127c08d193a64139ae05d851f0f4afd",
+      "bytes": 105,
+      "changes": []
+    },
+    "docs/beginner/chop-question-4.md": {
+      "source_path": "docs/beginner/chop-question-4.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/chop-question-4.mdx",
+      "source_sha256": "939e98d1c0eef0d8621fad42c6e00391b5a964ce30afe7e9fc1caadb2549d9b5",
+      "sha256": "02589afe9ffda9f525225b83478ef2b87e7ccfb800ac4d62e0a93c4d224ab82b",
+      "bytes": 712,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/card-notes/card-notes-1.yml": {
+      "source_path": "docs/beginner/card-notes/card-notes-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/card-notes/card-notes-1.yml",
+      "source_sha256": "ecd92ea658adf350b2469943c19ebb60244b4acb93704c40454389ffde3eeaf1",
+      "sha256": "ecd92ea658adf350b2469943c19ebb60244b4acb93704c40454389ffde3eeaf1",
+      "bytes": 230,
+      "changes": []
+    },
+    "docs/beginner/card-notes.md": {
+      "source_path": "docs/beginner/card-notes.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/card-notes.mdx",
+      "source_sha256": "8639ec164bf7a8c94bc8ce36cc2e3c1d2c1b54b3cbba4f1a0fa638fc6904bb36",
+      "sha256": "6e54b18ed4fea37575548cd31ce8a892ca1eee44325459ae9a08d23fd9afa66e",
+      "bytes": 2992,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution.",
+        "Omitted right-click UI instructions; private memory mapping is documented separately."
+      ]
+    },
+    "docs/beginner/two-types-of-clues.md": {
+      "source_path": "docs/beginner/two-types-of-clues.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/two-types-of-clues.mdx",
+      "source_sha256": "f484b65f35f2910b010f80a66c454fc94f6b8bd9717634aec6b5844a3df7154c",
+      "sha256": "34c3206ee4eb84fc8fce62a3347ae2ba53d97a5009fe6a8a252667f63db3d34a",
+      "bytes": 843,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/play-clues/play-clue-1.yml": {
+      "source_path": "docs/beginner/play-clues/play-clue-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues/play-clue-1.yml",
+      "source_sha256": "66134cb3b992d614fe109d707b163297b98592aaec70f3cbae1450f14acd108c",
+      "sha256": "66134cb3b992d614fe109d707b163297b98592aaec70f3cbae1450f14acd108c",
+      "bytes": 323,
+      "changes": []
+    },
+    "examples/play-clues/play-clue-2.yml": {
+      "source_path": "docs/beginner/play-clues/play-clue-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues/play-clue-2.yml",
+      "source_sha256": "b5cfecbc4ac92f019826a2677af26a6e820f994be58229858fbc8803eaafd1e7",
+      "sha256": "b5cfecbc4ac92f019826a2677af26a6e820f994be58229858fbc8803eaafd1e7",
+      "bytes": 327,
+      "changes": []
+    },
+    "docs/beginner/play-clues.md": {
+      "source_path": "docs/beginner/play-clues.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues.mdx",
+      "source_sha256": "66d9bbc77f489d31a04d589ff8545e338dddebf3519f37a03bd5ff3b3c79b321",
+      "sha256": "410ea8b989185370d3fdb766b06c119e5ef3f521ea12e9a1ab315f47343924e6",
+      "bytes": 1961,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/play-clues-question-1/play-clues-question-1.yml": {
+      "source_path": "docs/beginner/play-clues-question-1/play-clues-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues-question-1/play-clues-question-1.yml",
+      "source_sha256": "53d7eb3573874ef0fde811ea0ba31c9e65af95414c66af591cca492b48bc025f",
+      "sha256": "53d7eb3573874ef0fde811ea0ba31c9e65af95414c66af591cca492b48bc025f",
+      "bytes": 300,
+      "changes": []
+    },
+    "examples/play-clues-question-1/play-clues-answer-1.yml": {
+      "source_path": "docs/beginner/play-clues-question-1/play-clues-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues-question-1/play-clues-answer-1.yml",
+      "source_sha256": "fbedc17ac8a11bc373dd1d204b78caddc3deab7f17816cf195822bd7145bebcc",
+      "sha256": "fbedc17ac8a11bc373dd1d204b78caddc3deab7f17816cf195822bd7145bebcc",
+      "bytes": 323,
+      "changes": []
+    },
+    "docs/beginner/play-clues-question-1.md": {
+      "source_path": "docs/beginner/play-clues-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues-question-1.mdx",
+      "source_sha256": "d51b99c9bb4cd974333dd460d8e0d29a6942d8fcead7f7f36bee7c75e6f21afd",
+      "sha256": "b12ff67ebece0931861b3826d0ac634ae55e248a502729ed81d68aa892067e34",
+      "bytes": 1522,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/play-clues-question-2/play-clues-question-2.yml": {
+      "source_path": "docs/beginner/play-clues-question-2/play-clues-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues-question-2/play-clues-question-2.yml",
+      "source_sha256": "eefe0192ebc21637678e56b2e836bef6530c2e36b95195a904ed211646f6bf03",
+      "sha256": "eefe0192ebc21637678e56b2e836bef6530c2e36b95195a904ed211646f6bf03",
+      "bytes": 300,
+      "changes": []
+    },
+    "examples/play-clues-question-2/play-clues-answer-2.yml": {
+      "source_path": "docs/beginner/play-clues-question-2/play-clues-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues-question-2/play-clues-answer-2.yml",
+      "source_sha256": "845d80679937b1649925f43006b735fb53b1d89ff70085d2595560fa438b3c37",
+      "sha256": "845d80679937b1649925f43006b735fb53b1d89ff70085d2595560fa438b3c37",
+      "bytes": 325,
+      "changes": []
+    },
+    "docs/beginner/play-clues-question-2.md": {
+      "source_path": "docs/beginner/play-clues-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/play-clues-question-2.mdx",
+      "source_sha256": "be120240d125bb1547b8f38f7c0afb4e1b9cc9d1de206eff7a1a91fc5806fad7",
+      "sha256": "14de8b91d83fc51eba6a4289be507b32a99c4c7770ee9c83dba3406be6a26198",
+      "bytes": 1543,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/delayed-play-clues/delayed-play-clues.yml": {
+      "source_path": "docs/beginner/delayed-play-clues/delayed-play-clues.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues/delayed-play-clues.yml",
+      "source_sha256": "88d62a46fd5a0d286166e4703fbb0b8fdc6ebb8b6c871b16ed82231afa0119db",
+      "sha256": "88d62a46fd5a0d286166e4703fbb0b8fdc6ebb8b6c871b16ed82231afa0119db",
+      "bytes": 394,
+      "changes": []
+    },
+    "docs/beginner/delayed-play-clues.md": {
+      "source_path": "docs/beginner/delayed-play-clues.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues.mdx",
+      "source_sha256": "5fb6de073ec9dec609c562c555b48804f69bb6edd31ff92259291c17493f8b99",
+      "sha256": "1ddc8ed63dbe679aca94d7423684cffff9e5dc0ed345da213b2492395687a44b",
+      "bytes": 1537,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/delayed-play-clues-question-1/delayed-play-clues-question-1.yml": {
+      "source_path": "docs/beginner/delayed-play-clues-question-1/delayed-play-clues-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-1/delayed-play-clues-question-1.yml",
+      "source_sha256": "2495cea8c350ae4b6bc9033667c847295b58280eff39987ff94c32c99378a9ad",
+      "sha256": "2495cea8c350ae4b6bc9033667c847295b58280eff39987ff94c32c99378a9ad",
+      "bytes": 419,
+      "changes": []
+    },
+    "examples/delayed-play-clues-question-1/delayed-play-clues-answer-1.yml": {
+      "source_path": "docs/beginner/delayed-play-clues-question-1/delayed-play-clues-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-1/delayed-play-clues-answer-1.yml",
+      "source_sha256": "f9c43d6cae7a0891ce6a09d0564cec8f8b72e1f9d33ea8d972d28c301731c284",
+      "sha256": "f9c43d6cae7a0891ce6a09d0564cec8f8b72e1f9d33ea8d972d28c301731c284",
+      "bytes": 442,
+      "changes": []
+    },
+    "docs/beginner/delayed-play-clues-question-1.md": {
+      "source_path": "docs/beginner/delayed-play-clues-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-1.mdx",
+      "source_sha256": "c5f6833c417db19caa271c4bc500173d7a5031ab1da2087aa9118727b8670baf",
+      "sha256": "be4fb16af867f2fb68098d3855a477f04db99595e1adf00df2f234270f720462",
+      "bytes": 2042,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/delayed-play-clues-question-2/delayed-play-clues-question-2.yml": {
+      "source_path": "docs/beginner/delayed-play-clues-question-2/delayed-play-clues-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-2/delayed-play-clues-question-2.yml",
+      "source_sha256": "7636d7d5b0a3e49b331482c12b3284622ff45ac093ea8a61b016a8233c51a400",
+      "sha256": "7636d7d5b0a3e49b331482c12b3284622ff45ac093ea8a61b016a8233c51a400",
+      "bytes": 393,
+      "changes": []
+    },
+    "examples/delayed-play-clues-question-2/delayed-play-clues-answer-2.yml": {
+      "source_path": "docs/beginner/delayed-play-clues-question-2/delayed-play-clues-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-2/delayed-play-clues-answer-2.yml",
+      "source_sha256": "b65048f84dfea990594332f7701906b403d626c936dcff54baa6aab60d7d13bf",
+      "sha256": "b65048f84dfea990594332f7701906b403d626c936dcff54baa6aab60d7d13bf",
+      "bytes": 417,
+      "changes": []
+    },
+    "docs/beginner/delayed-play-clues-question-2.md": {
+      "source_path": "docs/beginner/delayed-play-clues-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-2.mdx",
+      "source_sha256": "deb1e26f0edaef4ba84f39276d9ae26bb3080f498d42f32cadcc90a70e1fdebf",
+      "sha256": "06cd5f6ecc0b4cca58d698624bc39d050fa33df5b9889aba7037bda1356fe478",
+      "bytes": 2077,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/delayed-play-clues-question-3/delayed-play-clues-question-3.yml": {
+      "source_path": "docs/beginner/delayed-play-clues-question-3/delayed-play-clues-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-3/delayed-play-clues-question-3.yml",
+      "source_sha256": "d336ce5e57cff987e80fbe82a4b73298849024e2776d709b39eb01e857fa38ab",
+      "sha256": "d336ce5e57cff987e80fbe82a4b73298849024e2776d709b39eb01e857fa38ab",
+      "bytes": 514,
+      "changes": []
+    },
+    "examples/delayed-play-clues-question-3/delayed-play-clues-answer-3.yml": {
+      "source_path": "docs/beginner/delayed-play-clues-question-3/delayed-play-clues-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-3/delayed-play-clues-answer-3.yml",
+      "source_sha256": "d336ce5e57cff987e80fbe82a4b73298849024e2776d709b39eb01e857fa38ab",
+      "sha256": "d336ce5e57cff987e80fbe82a4b73298849024e2776d709b39eb01e857fa38ab",
+      "bytes": 514,
+      "changes": []
+    },
+    "docs/beginner/delayed-play-clues-question-3.md": {
+      "source_path": "docs/beginner/delayed-play-clues-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/delayed-play-clues-question-3.mdx",
+      "source_sha256": "023b8bb43b2689e00b87b85ffd212250268dbbc8aa5faa14cdde3a77faf8ad8a",
+      "sha256": "30b145e98a4d6aee0f00662389cc5d093b482c39c7cd77213a9eee1dcb123de3",
+      "bytes": 2532,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "docs/beginner/save-clues.md": {
+      "source_path": "docs/beginner/save-clues.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-clues.mdx",
+      "source_sha256": "75c5f45753a31b5ab855c92e88d0a336596603c1e2679751d97cdbaaf643f502",
+      "sha256": "aaeaf533144bdbc6642a962e9213d3bfbf7417ed94c0088dfedd0d14a635ad86",
+      "bytes": 1952,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/5-save/5-save.yml": {
+      "source_path": "docs/beginner/5-save/5-save.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save/5-save.yml",
+      "source_sha256": "19b2ae8904038ab10667878e94dbbf447dbd2892927beaa19ecfc771a2cf4d26",
+      "sha256": "19b2ae8904038ab10667878e94dbbf447dbd2892927beaa19ecfc771a2cf4d26",
+      "bytes": 247,
+      "changes": []
+    },
+    "docs/beginner/5-save.md": {
+      "source_path": "docs/beginner/5-save.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save.mdx",
+      "source_sha256": "d554e8fd60a2f51dd15f8e09c61deed19fe8703f54a4e731c798bc15ede4d207",
+      "sha256": "bcfb512cc719ed2fddc8b3807fd18bcf4a4bf7c76de5b56e42f22de1d97370e4",
+      "bytes": 1075,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/5-save-question-1/5-save-question-1.yml": {
+      "source_path": "docs/beginner/5-save-question-1/5-save-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save-question-1/5-save-question-1.yml",
+      "source_sha256": "bdaac15ca16db4fe7295e8c75f521b638c714da298f6cd107caccef9c0e4356f",
+      "sha256": "bdaac15ca16db4fe7295e8c75f521b638c714da298f6cd107caccef9c0e4356f",
+      "bytes": 632,
+      "changes": []
+    },
+    "examples/5-save-question-1/5-save-answer-1.yml": {
+      "source_path": "docs/beginner/5-save-question-1/5-save-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save-question-1/5-save-answer-1.yml",
+      "source_sha256": "699e8252667904c76376f4e5f19ecb160a4ac5b42672f6aece0c23b7ec05d1a6",
+      "sha256": "699e8252667904c76376f4e5f19ecb160a4ac5b42672f6aece0c23b7ec05d1a6",
+      "bytes": 715,
+      "changes": []
+    },
+    "docs/beginner/5-save-question-1.md": {
+      "source_path": "docs/beginner/5-save-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save-question-1.mdx",
+      "source_sha256": "53404884a5991ff90129f332af0ead3665851ef7cfa22ce3803162e741f410f8",
+      "sha256": "d65701d642eb6cd5d5c1351bfd2b3d6e78dee9d1aafda5aef31cf58894e0335a",
+      "bytes": 2220,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/5-save-question-2/5-save-question-2.yml": {
+      "source_path": "docs/beginner/5-save-question-2/5-save-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save-question-2/5-save-question-2.yml",
+      "source_sha256": "9055ffdebb32f0b2ca8a71500e8c418bb63d99150ccf20df94978ded96242b13",
+      "sha256": "9055ffdebb32f0b2ca8a71500e8c418bb63d99150ccf20df94978ded96242b13",
+      "bytes": 447,
+      "changes": []
+    },
+    "examples/5-save-question-2/5-save-answer-2.yml": {
+      "source_path": "docs/beginner/5-save-question-2/5-save-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save-question-2/5-save-answer-2.yml",
+      "source_sha256": "04385bc8a39cb1c78fffcb1871b076e508bf8a1d3721c06644fe51cdf21d88b4",
+      "sha256": "04385bc8a39cb1c78fffcb1871b076e508bf8a1d3721c06644fe51cdf21d88b4",
+      "bytes": 501,
+      "changes": []
+    },
+    "docs/beginner/5-save-question-2.md": {
+      "source_path": "docs/beginner/5-save-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/5-save-question-2.mdx",
+      "source_sha256": "30f326ce62960ffcd054960777a53f6b7ba357a06bb5c75844b09c72dd10356f",
+      "sha256": "94a9fa2ddab98ce257751a1af03709e687cbe86be5b57895b23e6cb75ac0b2bb",
+      "bytes": 2538,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/2-save/2-save.yml": {
+      "source_path": "docs/beginner/2-save/2-save.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save/2-save.yml",
+      "source_sha256": "49f87af2657e757b0842fa6b1ac21d3feacc27acee9982e9914c39e8dcf37660",
+      "sha256": "49f87af2657e757b0842fa6b1ac21d3feacc27acee9982e9914c39e8dcf37660",
+      "bytes": 247,
+      "changes": []
+    },
+    "examples/2-save/2-save-illegal.yml": {
+      "source_path": "docs/beginner/2-save/2-save-illegal.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save/2-save-illegal.yml",
+      "source_sha256": "97a2fca43e9ee2a873b9626bd2a8bb35087ff877eca86b405f51216bd4de9c24",
+      "sha256": "97a2fca43e9ee2a873b9626bd2a8bb35087ff877eca86b405f51216bd4de9c24",
+      "bytes": 572,
+      "changes": []
+    },
+    "docs/beginner/2-save.md": {
+      "source_path": "docs/beginner/2-save.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save.mdx",
+      "source_sha256": "127a0c61fc0f1397c7bf4e6dd9fe8d15ca1e35abc1423ec56136305189539783",
+      "sha256": "ae6c1f2d71c751ad8fd476b85afa077368d6b99d9f0ee6d666fee384b3ea73c7",
+      "bytes": 2283,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/2-save-question-1/2-save-question-1.yml": {
+      "source_path": "docs/beginner/2-save-question-1/2-save-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-1/2-save-question-1.yml",
+      "source_sha256": "c748d1cfa2ab4bd3621287fd1064958070e3b6f330102e707ccf3a9edb81b28a",
+      "sha256": "c748d1cfa2ab4bd3621287fd1064958070e3b6f330102e707ccf3a9edb81b28a",
+      "bytes": 464,
+      "changes": []
+    },
+    "examples/2-save-question-1/2-save-answer-1.yml": {
+      "source_path": "docs/beginner/2-save-question-1/2-save-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-1/2-save-answer-1.yml",
+      "source_sha256": "61337f63f53e43607e056a78c71e2af46cdae87572aed3a598bc1f0bd5bb1743",
+      "sha256": "61337f63f53e43607e056a78c71e2af46cdae87572aed3a598bc1f0bd5bb1743",
+      "bytes": 531,
+      "changes": []
+    },
+    "docs/beginner/2-save-question-1.md": {
+      "source_path": "docs/beginner/2-save-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-1.mdx",
+      "source_sha256": "aebdb5c6666f5a9a6872bba1045a1d986f0bbc0f411fe613550e1bae32bee29b",
+      "sha256": "06f3d5ff666bf4c0e376c11f37d6d55aa9df45aa4422f418b34905cb0a604841",
+      "bytes": 1989,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/2-save-question-2/2-save-question-2.yml": {
+      "source_path": "docs/beginner/2-save-question-2/2-save-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-2/2-save-question-2.yml",
+      "source_sha256": "b76c1e3b26c30456309120e8bd9bbca5578807a0302367e5dbb8ff4c1312acdf",
+      "sha256": "b76c1e3b26c30456309120e8bd9bbca5578807a0302367e5dbb8ff4c1312acdf",
+      "bytes": 486,
+      "changes": []
+    },
+    "examples/2-save-question-2/2-save-answer-2.yml": {
+      "source_path": "docs/beginner/2-save-question-2/2-save-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-2/2-save-answer-2.yml",
+      "source_sha256": "b420b8e501963d4dedbe868c54da7cd27d75a1fc94456adfe617796e302c664f",
+      "sha256": "b420b8e501963d4dedbe868c54da7cd27d75a1fc94456adfe617796e302c664f",
+      "bytes": 504,
+      "changes": []
+    },
+    "docs/beginner/2-save-question-2.md": {
+      "source_path": "docs/beginner/2-save-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-2.mdx",
+      "source_sha256": "dd3205891a067881f485f1106de97d0da9c9bfd9ffd37a1f13be985e1dda4b6e",
+      "sha256": "116b524391b95898ea11933a8a84ae7b0989b0c2a0a3aa518671b4b5ee656f43",
+      "bytes": 2669,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/2-save-question-3/2-save-question-3.yml": {
+      "source_path": "docs/beginner/2-save-question-3/2-save-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-3/2-save-question-3.yml",
+      "source_sha256": "58e0939d5b1c50ad75b1d1c3e92aae23eb8923738d2af5cfc6c8c595aae3d75a",
+      "sha256": "58e0939d5b1c50ad75b1d1c3e92aae23eb8923738d2af5cfc6c8c595aae3d75a",
+      "bytes": 585,
+      "changes": []
+    },
+    "examples/2-save-question-3/2-save-answer-3.yml": {
+      "source_path": "docs/beginner/2-save-question-3/2-save-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-3/2-save-answer-3.yml",
+      "source_sha256": "2af5f74fd7eb69d444225c30eb2184a0f0f4387d5863304f3ebb4f2579de430c",
+      "sha256": "2af5f74fd7eb69d444225c30eb2184a0f0f4387d5863304f3ebb4f2579de430c",
+      "bytes": 688,
+      "changes": []
+    },
+    "docs/beginner/2-save-question-3.md": {
+      "source_path": "docs/beginner/2-save-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/2-save-question-3.mdx",
+      "source_sha256": "c21f458388a102b862c660ba04c8214dfedcc941942856775708dff3dfdad712",
+      "sha256": "5265d1c9955d0997db0e99505cffd0ce0fe2548906aebf007916efa01c204261",
+      "bytes": 2195,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/critical-save/critical-save.yml": {
+      "source_path": "docs/beginner/critical-save/critical-save.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save/critical-save.yml",
+      "source_sha256": "9a00cb7b15e7710c5ce2581cf97f0a891fd6eaa48c86eb3a27e44df7aa5d3b70",
+      "sha256": "9a00cb7b15e7710c5ce2581cf97f0a891fd6eaa48c86eb3a27e44df7aa5d3b70",
+      "bytes": 347,
+      "changes": []
+    },
+    "docs/beginner/critical-save.md": {
+      "source_path": "docs/beginner/critical-save.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save.mdx",
+      "source_sha256": "97e1d0d10fe3e010b4acba7e2774e1835f4e0cff0a155980fda6acb452b2df3e",
+      "sha256": "35fff39babe33d644b2827a0a0d6403dd3ffdd6ed60a541438f414c8eae49b56",
+      "bytes": 2160,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/critical-save-question-1/critical-save-question-1.yml": {
+      "source_path": "docs/beginner/critical-save-question-1/critical-save-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-1/critical-save-question-1.yml",
+      "source_sha256": "57868ca73633f5c278f1f49b7b7c67576ab88559c5a08526f38bfb6b733aa544",
+      "sha256": "57868ca73633f5c278f1f49b7b7c67576ab88559c5a08526f38bfb6b733aa544",
+      "bytes": 482,
+      "changes": []
+    },
+    "examples/critical-save-question-1/critical-save-answer-1.yml": {
+      "source_path": "docs/beginner/critical-save-question-1/critical-save-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-1/critical-save-answer-1.yml",
+      "source_sha256": "a709b7271865d42ed167dc44c8fdd42d707c2d133edd4100183d222f61dcf84e",
+      "sha256": "a709b7271865d42ed167dc44c8fdd42d707c2d133edd4100183d222f61dcf84e",
+      "bytes": 500,
+      "changes": []
+    },
+    "docs/beginner/critical-save-question-1.md": {
+      "source_path": "docs/beginner/critical-save-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-1.mdx",
+      "source_sha256": "431d750ee4c393a4b8e10cb88a9ce6ff068e9e56b327d284dc6ec73fa18420da",
+      "sha256": "c8bc88ad42c8bd95e78c2c4ad7fbbe4e0ea433d2f3128d30a7049c4dc6bf3b3c",
+      "bytes": 2259,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/critical-save-question-2/critical-save-question-2.yml": {
+      "source_path": "docs/beginner/critical-save-question-2/critical-save-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-2/critical-save-question-2.yml",
+      "source_sha256": "d25f4077e552557b7bf7a843b013e024459fc0f6055697971778719d196f5ebd",
+      "sha256": "d25f4077e552557b7bf7a843b013e024459fc0f6055697971778719d196f5ebd",
+      "bytes": 495,
+      "changes": []
+    },
+    "examples/critical-save-question-2/critical-save-answer-2.yml": {
+      "source_path": "docs/beginner/critical-save-question-2/critical-save-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-2/critical-save-answer-2.yml",
+      "source_sha256": "f5cdf850c68b109bc33427236d0343db5f8543b325dfb2472f20967829ac71df",
+      "sha256": "f5cdf850c68b109bc33427236d0343db5f8543b325dfb2472f20967829ac71df",
+      "bytes": 966,
+      "changes": []
+    },
+    "docs/beginner/critical-save-question-2.md": {
+      "source_path": "docs/beginner/critical-save-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-2.mdx",
+      "source_sha256": "0be01b346983bf0c86539d0f99a6766e29e4048f7ce5468f633e4b83b885721c",
+      "sha256": "910aa182c62730f59d24bb496818d2d0e1bf436a5b2194d94333a4de19cb38af",
+      "bytes": 2725,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/critical-save-question-3/critical-save-question-3.yml": {
+      "source_path": "docs/beginner/critical-save-question-3/critical-save-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-3/critical-save-question-3.yml",
+      "source_sha256": "cf6eef0e38cd8b97ddfc2cde6af52013b9ef4c3983524977c535d0a24109144f",
+      "sha256": "cf6eef0e38cd8b97ddfc2cde6af52013b9ef4c3983524977c535d0a24109144f",
+      "bytes": 511,
+      "changes": []
+    },
+    "examples/critical-save-question-3/critical-save-answer-3.yml": {
+      "source_path": "docs/beginner/critical-save-question-3/critical-save-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-3/critical-save-answer-3.yml",
+      "source_sha256": "8a787608d6d5a11ef2b347b4167a63fe4ace25e5acb298339f182a53f6c7d60e",
+      "sha256": "8a787608d6d5a11ef2b347b4167a63fe4ace25e5acb298339f182a53f6c7d60e",
+      "bytes": 583,
+      "changes": []
+    },
+    "docs/beginner/critical-save-question-3.md": {
+      "source_path": "docs/beginner/critical-save-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-3.mdx",
+      "source_sha256": "0192b05f8c5e41094150a278f551477fcdfd689379ec7c6b7bc5ee2e87f21cff",
+      "sha256": "cd429e2457d5f68b4bec04840ab5fe34d3d3e47523f643b2b2b603a708833eb7",
+      "bytes": 2708,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/critical-save-question-4/critical-save-question-4.yml": {
+      "source_path": "docs/beginner/critical-save-question-4/critical-save-question-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-4/critical-save-question-4.yml",
+      "source_sha256": "d633442f13124887c0db62886b68c20799172631d0dab7a9a6d9bc610d5e24ad",
+      "sha256": "d633442f13124887c0db62886b68c20799172631d0dab7a9a6d9bc610d5e24ad",
+      "bytes": 504,
+      "changes": []
+    },
+    "examples/critical-save-question-4/critical-save-answer-4.yml": {
+      "source_path": "docs/beginner/critical-save-question-4/critical-save-answer-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-4/critical-save-answer-4.yml",
+      "source_sha256": "a994a31a74ee7837c613f4067de5b3d808631320f13ec2cc9f2d5ce283065da7",
+      "sha256": "a994a31a74ee7837c613f4067de5b3d808631320f13ec2cc9f2d5ce283065da7",
+      "bytes": 549,
+      "changes": []
+    },
+    "docs/beginner/critical-save-question-4.md": {
+      "source_path": "docs/beginner/critical-save-question-4.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/critical-save-question-4.mdx",
+      "source_sha256": "4e1c1fad23391601d346a1b24abcaaf94245892c9be1420ee9ebd6fb0f8ab7a6",
+      "sha256": "773c4cbcddecc32f75a93f53ab1787c0bd78a4527fccea35768f1b838d3b303e",
+      "bytes": 2534,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/single-card-focus/leftmost-focus.yml": {
+      "source_path": "docs/beginner/single-card-focus/leftmost-focus.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus/leftmost-focus.yml",
+      "source_sha256": "b69c297402390f6bf1f1044de33b96f83836fd764251dc4879d3bffe367abb77",
+      "sha256": "b69c297402390f6bf1f1044de33b96f83836fd764251dc4879d3bffe367abb77",
+      "bytes": 264,
+      "changes": []
+    },
+    "examples/single-card-focus/chop-focus.yml": {
+      "source_path": "docs/beginner/single-card-focus/chop-focus.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus/chop-focus.yml",
+      "source_sha256": "6570c35b2b324f361d526619c637bc37e1866a6953e5f7dd75de272a0e37a818",
+      "sha256": "6570c35b2b324f361d526619c637bc37e1866a6953e5f7dd75de272a0e37a818",
+      "bytes": 280,
+      "changes": []
+    },
+    "docs/beginner/single-card-focus.md": {
+      "source_path": "docs/beginner/single-card-focus.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus.mdx",
+      "source_sha256": "363f4555c3700d1bcd2c3a24c593fd13a5e2e0ebb68cae0e93920f042e85fdf5",
+      "sha256": "4a5bedff4916fc3af9e4bc45063aa5fd2458cbd102f6860a767a41b4936f58a1",
+      "bytes": 3666,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/single-card-focus-question-1/single-card-focus-question-1.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-1/single-card-focus-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-1/single-card-focus-question-1.yml",
+      "source_sha256": "7f084d3cb8ad7a93130ea54e3d4ac09703deae2b80abfa9e309b05d9acd6cab2",
+      "sha256": "7f084d3cb8ad7a93130ea54e3d4ac09703deae2b80abfa9e309b05d9acd6cab2",
+      "bytes": 366,
+      "changes": []
+    },
+    "examples/single-card-focus-question-1/single-card-focus-answer-1.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-1/single-card-focus-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-1/single-card-focus-answer-1.yml",
+      "source_sha256": "1fbcec8b4a929b3e2ce31211e03d9de9c2cdd243278a9d5bc2eda6c16fa9ade3",
+      "sha256": "1fbcec8b4a929b3e2ce31211e03d9de9c2cdd243278a9d5bc2eda6c16fa9ade3",
+      "bytes": 387,
+      "changes": []
+    },
+    "docs/beginner/single-card-focus-question-1.md": {
+      "source_path": "docs/beginner/single-card-focus-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-1.mdx",
+      "source_sha256": "64e53b76bab4930913eac6577df13ef5002a1c0355df0f89e5f3804112e183cd",
+      "sha256": "fcf47178e5798c29d38ac584cfb97c7f656c362c608f96fc4cb0a18fca783a5d",
+      "bytes": 1616,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/single-card-focus-question-2/single-card-focus-question-2.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-2/single-card-focus-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-2/single-card-focus-question-2.yml",
+      "source_sha256": "ec451768937e2f0ea2704e5c83059c1b5a0302fe18d39b124d1982e91441e6ee",
+      "sha256": "ec451768937e2f0ea2704e5c83059c1b5a0302fe18d39b124d1982e91441e6ee",
+      "bytes": 382,
+      "changes": []
+    },
+    "examples/single-card-focus-question-2/single-card-focus-answer-2.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-2/single-card-focus-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-2/single-card-focus-answer-2.yml",
+      "source_sha256": "1e92be02b3ba7733aa16c7ac6a19bf8e5ae824735589a7ab865ed6a927be0a2a",
+      "sha256": "1e92be02b3ba7733aa16c7ac6a19bf8e5ae824735589a7ab865ed6a927be0a2a",
+      "bytes": 403,
+      "changes": []
+    },
+    "docs/beginner/single-card-focus-question-2.md": {
+      "source_path": "docs/beginner/single-card-focus-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-2.mdx",
+      "source_sha256": "3b8e066f159323010895f5aad3eb372fa9311a96e6c34735f867b4266ac878a1",
+      "sha256": "03312c205a04ef57938dc763b3327ec9b0303c36b115fbb8b20be01cc5a2457e",
+      "bytes": 1614,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/single-card-focus-question-3/single-card-focus-question-3.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-3/single-card-focus-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-3/single-card-focus-question-3.yml",
+      "source_sha256": "860ae0abf774fcb56c39c6eaf0c3dada6c789669558cf7b9d0582fa6957ca316",
+      "sha256": "860ae0abf774fcb56c39c6eaf0c3dada6c789669558cf7b9d0582fa6957ca316",
+      "bytes": 359,
+      "changes": []
+    },
+    "examples/single-card-focus-question-3/single-card-focus-answer-3.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-3/single-card-focus-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-3/single-card-focus-answer-3.yml",
+      "source_sha256": "83f4184a819097c772c694922634d579e78cc42800eee796aaf2bee4357c6600",
+      "sha256": "83f4184a819097c772c694922634d579e78cc42800eee796aaf2bee4357c6600",
+      "bytes": 380,
+      "changes": []
+    },
+    "docs/beginner/single-card-focus-question-3.md": {
+      "source_path": "docs/beginner/single-card-focus-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-3.mdx",
+      "source_sha256": "8101fc2c11991973970fcb9393a2c5444212eb3533095d833fc988da4428c01e",
+      "sha256": "eba884e1cc9c25134ac7417a1b87bf0b566b91121308987acc2d3ef6bace6f88",
+      "bytes": 1605,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/single-card-focus-question-4/single-card-focus-question-4.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-4/single-card-focus-question-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-4/single-card-focus-question-4.yml",
+      "source_sha256": "869ab06336fc1a8be9f6627b393c7b246971b0dae1fd1d6093b1dd9ce4afe823",
+      "sha256": "869ab06336fc1a8be9f6627b393c7b246971b0dae1fd1d6093b1dd9ce4afe823",
+      "bytes": 375,
+      "changes": []
+    },
+    "examples/single-card-focus-question-4/single-card-focus-answer-4.yml": {
+      "source_path": "docs/beginner/single-card-focus-question-4/single-card-focus-answer-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-4/single-card-focus-answer-4.yml",
+      "source_sha256": "87735f446f0220b406c364e51fa8cff3f5904255b4836f39c3107bc8cc7c31a4",
+      "sha256": "87735f446f0220b406c364e51fa8cff3f5904255b4836f39c3107bc8cc7c31a4",
+      "bytes": 396,
+      "changes": []
+    },
+    "docs/beginner/single-card-focus-question-4.md": {
+      "source_path": "docs/beginner/single-card-focus-question-4.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/single-card-focus-question-4.mdx",
+      "source_sha256": "beae9b2ae4a3cbd815d5ae896d4da8c5588e4e01eaaebd61a2a27090e2a7fed7",
+      "sha256": "3481df602065b65db370a4e313cdfbc5c6f8117e608d1d220a2a01f504be94de",
+      "bytes": 1664,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "docs/beginner/clue-interpretation.md": {
+      "source_path": "docs/beginner/clue-interpretation.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation.mdx",
+      "source_sha256": "18489ac8845623ef424bea8ce97786c5d4cb9f103c4f6150c63ed8bc69647c9b",
+      "sha256": "69259ba8850e1a143313cba91acfa4c82a2bb65188bdfa84778d95363c15d115",
+      "bytes": 1244,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/clue-interpretation-question-1/clue-interpretation-question-1.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-1/clue-interpretation-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-1/clue-interpretation-question-1.yml",
+      "source_sha256": "db520010f374580994fa148da1f9fde301cf168d357ddcdbd77d4ad9659c36a4",
+      "sha256": "db520010f374580994fa148da1f9fde301cf168d357ddcdbd77d4ad9659c36a4",
+      "bytes": 494,
+      "changes": []
+    },
+    "examples/clue-interpretation-question-1/clue-interpretation-answer-1.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-1/clue-interpretation-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-1/clue-interpretation-answer-1.yml",
+      "source_sha256": "1fda7c21cc5f43b3e12675a92b10d0d286d256b3acd85103ebbad5f0a78fbef2",
+      "sha256": "1fda7c21cc5f43b3e12675a92b10d0d286d256b3acd85103ebbad5f0a78fbef2",
+      "bytes": 537,
+      "changes": []
+    },
+    "docs/beginner/clue-interpretation-question-1.md": {
+      "source_path": "docs/beginner/clue-interpretation-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-1.mdx",
+      "source_sha256": "cb9e6fd5b71bc3f2eb9b9e3626b37dcf10b411057a69a513f30044dd5941d6e8",
+      "sha256": "c60bf1341305317083798bb5dd1c00737ee3749b1cd306aae8810303ddc12a40",
+      "bytes": 2615,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/clue-interpretation-question-2/clue-interpretation-question-2.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-2/clue-interpretation-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-2/clue-interpretation-question-2.yml",
+      "source_sha256": "77709d9f8525adf53ce981c5bda97f805643a0df16c34bc0bb628f5b706e3ca1",
+      "sha256": "77709d9f8525adf53ce981c5bda97f805643a0df16c34bc0bb628f5b706e3ca1",
+      "bytes": 371,
+      "changes": []
+    },
+    "examples/clue-interpretation-question-2/clue-interpretation-answer-2.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-2/clue-interpretation-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-2/clue-interpretation-answer-2.yml",
+      "source_sha256": "b153dd9ede6e457951b602dbd131ee141003c337040427e1e818d1a47ad0e306",
+      "sha256": "b153dd9ede6e457951b602dbd131ee141003c337040427e1e818d1a47ad0e306",
+      "bytes": 418,
+      "changes": []
+    },
+    "docs/beginner/clue-interpretation-question-2.md": {
+      "source_path": "docs/beginner/clue-interpretation-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-2.mdx",
+      "source_sha256": "aaa2a6d6a167a1349233bd483de466492db9b454735cf6fae6165cd6f0fc96fd",
+      "sha256": "45e6ab034635bcad2a2d05ff0c697c64af4978eef3a766bc52d57969ddf6c451",
+      "bytes": 1918,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/clue-interpretation-question-3/clue-interpretation-question-3.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-3/clue-interpretation-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-3/clue-interpretation-question-3.yml",
+      "source_sha256": "5d8815e4a71c67a12eb9de67cf18d9f3ae6b371d57d196f2ee73a1503e9035bb",
+      "sha256": "5d8815e4a71c67a12eb9de67cf18d9f3ae6b371d57d196f2ee73a1503e9035bb",
+      "bytes": 469,
+      "changes": []
+    },
+    "examples/clue-interpretation-question-3/clue-interpretation-answer-3.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-3/clue-interpretation-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-3/clue-interpretation-answer-3.yml",
+      "source_sha256": "197087aa7a18b9497b726c3e946534c08c2dd29151149d558fce847ecd0c021b",
+      "sha256": "197087aa7a18b9497b726c3e946534c08c2dd29151149d558fce847ecd0c021b",
+      "bytes": 512,
+      "changes": []
+    },
+    "docs/beginner/clue-interpretation-question-3.md": {
+      "source_path": "docs/beginner/clue-interpretation-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-3.mdx",
+      "source_sha256": "c30613c98c597a07327e37f8e4b1a0cbb2945d691d3276997d393800e00e6007",
+      "sha256": "d5da08e8d8a2bfd5bdc960f81dee49b06ec8146304c2c3408ff507c52303ff93",
+      "bytes": 2484,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/clue-interpretation-question-4/clue-interpretation-question-4.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-4/clue-interpretation-question-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-4/clue-interpretation-question-4.yml",
+      "source_sha256": "7e13239410f6bc5eb411a7b8e41d7d4814c93396fd4aee5a6308f783b64a07eb",
+      "sha256": "7e13239410f6bc5eb411a7b8e41d7d4814c93396fd4aee5a6308f783b64a07eb",
+      "bytes": 453,
+      "changes": []
+    },
+    "examples/clue-interpretation-question-4/clue-interpretation-answer-4.yml": {
+      "source_path": "docs/beginner/clue-interpretation-question-4/clue-interpretation-answer-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-4/clue-interpretation-answer-4.yml",
+      "source_sha256": "e81fd8094df8170842d9c219cd4db9f4b88c98dd7a087e5d92b34a43976ac92c",
+      "sha256": "e81fd8094df8170842d9c219cd4db9f4b88c98dd7a087e5d92b34a43976ac92c",
+      "bytes": 498,
+      "changes": []
+    },
+    "docs/beginner/clue-interpretation-question-4.md": {
+      "source_path": "docs/beginner/clue-interpretation-question-4.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/clue-interpretation-question-4.mdx",
+      "source_sha256": "5cb8078ab68b21e9e3eb1477c0be09b9ab0e3335684eef54240180f12bdbed7f",
+      "sha256": "dfd0ebe65e6a2387576a93ce3b55f6467d1bf0597b1ba4ea8637204919073b4b",
+      "bytes": 3048,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "docs/beginner/three-main-principles.md": {
+      "source_path": "docs/beginner/three-main-principles.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/three-main-principles.mdx",
+      "source_sha256": "20e2e596dca88e1561ceb5771f47ec52506c0032ccbc81f5377d4d38561c6d5d",
+      "sha256": "3277827dc8fb096c25098e43ebec0f00629b2556800a8743a1d33fef0e33167b",
+      "bytes": 1114,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/good-touch-principle/good-touch-principle-1-illegal.yml": {
+      "source_path": "docs/beginner/good-touch-principle/good-touch-principle-1-illegal.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle/good-touch-principle-1-illegal.yml",
+      "source_sha256": "65d98fe087aaa3e32e36aa1070de34e522579c068737c6c8b0c4f13724480f07",
+      "sha256": "65d98fe087aaa3e32e36aa1070de34e522579c068737c6c8b0c4f13724480f07",
+      "bytes": 401,
+      "changes": []
+    },
+    "examples/good-touch-principle/good-touch-principle-1-correct.yml": {
+      "source_path": "docs/beginner/good-touch-principle/good-touch-principle-1-correct.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle/good-touch-principle-1-correct.yml",
+      "source_sha256": "36108271590cf5e24560c7cbd6e6d9d668b382dcf081301ed399f2f09da5807d",
+      "sha256": "36108271590cf5e24560c7cbd6e6d9d668b382dcf081301ed399f2f09da5807d",
+      "bytes": 387,
+      "changes": []
+    },
+    "examples/good-touch-principle/good-touch-principle-2.yml": {
+      "source_path": "docs/beginner/good-touch-principle/good-touch-principle-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle/good-touch-principle-2.yml",
+      "source_sha256": "bda39979c989feec66308ff38a93f5948ff32f93288e19fd07a9b08fedc3008d",
+      "sha256": "bda39979c989feec66308ff38a93f5948ff32f93288e19fd07a9b08fedc3008d",
+      "bytes": 379,
+      "changes": []
+    },
+    "examples/good-touch-principle/good-touch-principle-3.yml": {
+      "source_path": "docs/beginner/good-touch-principle/good-touch-principle-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle/good-touch-principle-3.yml",
+      "source_sha256": "1ad9d0fd1f9ffc323b89ab2d66afdbcde04d8cd374ad55d5b3fbc9b0c2bee02e",
+      "sha256": "1ad9d0fd1f9ffc323b89ab2d66afdbcde04d8cd374ad55d5b3fbc9b0c2bee02e",
+      "bytes": 366,
+      "changes": []
+    },
+    "docs/beginner/good-touch-principle.md": {
+      "source_path": "docs/beginner/good-touch-principle.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle.mdx",
+      "source_sha256": "38acaf52e273b4b54a76e7340f991f6077a33f14cb8eb7a51dc69e90a977b102",
+      "sha256": "e87de17e77f68e4079a1105ceddfaa54fb66dc0168d66704465a7c92b3484b41",
+      "bytes": 4151,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/good-touch-principle-question-1/good-touch-principle-question-1.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-1/good-touch-principle-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-1/good-touch-principle-question-1.yml",
+      "source_sha256": "d9d3e2ce410ab645d9ee6ca207fc6c63bd56a9993affc3e1ac70992d595c3604",
+      "sha256": "d9d3e2ce410ab645d9ee6ca207fc6c63bd56a9993affc3e1ac70992d595c3604",
+      "bytes": 470,
+      "changes": []
+    },
+    "examples/good-touch-principle-question-1/good-touch-principle-answer-1.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-1/good-touch-principle-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-1/good-touch-principle-answer-1.yml",
+      "source_sha256": "b66e2617eaa910ed8899723ae470c68c62dabba5a3de625bd8432893e6ea1118",
+      "sha256": "b66e2617eaa910ed8899723ae470c68c62dabba5a3de625bd8432893e6ea1118",
+      "bytes": 501,
+      "changes": []
+    },
+    "docs/beginner/good-touch-principle-question-1.md": {
+      "source_path": "docs/beginner/good-touch-principle-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-1.mdx",
+      "source_sha256": "8cfc678e6b917d139982ecdbe609a9f58ae9c5243732ffa35b24ce5297199d24",
+      "sha256": "6bb060a03df388486bd6b3afa6b64e99d67bfd95f34909537a953ad685bb4c47",
+      "bytes": 2100,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/good-touch-principle-question-2/good-touch-principle-question-2.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-2/good-touch-principle-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-2/good-touch-principle-question-2.yml",
+      "source_sha256": "566543c673f9c5210b222c942801683975a7f26b7f12ea127c11d34ea34836b0",
+      "sha256": "566543c673f9c5210b222c942801683975a7f26b7f12ea127c11d34ea34836b0",
+      "bytes": 519,
+      "changes": []
+    },
+    "examples/good-touch-principle-question-2/good-touch-principle-answer-2.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-2/good-touch-principle-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-2/good-touch-principle-answer-2.yml",
+      "source_sha256": "de3e61ad619af43cea682d951e1f1c7d2bcb766f626478f8470177b950ea1b9c",
+      "sha256": "de3e61ad619af43cea682d951e1f1c7d2bcb766f626478f8470177b950ea1b9c",
+      "bytes": 558,
+      "changes": []
+    },
+    "docs/beginner/good-touch-principle-question-2.md": {
+      "source_path": "docs/beginner/good-touch-principle-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-2.mdx",
+      "source_sha256": "544c5fa9ceb2515ae20b9965b5869533af1e7ecc7fcb800128accd18dce71191",
+      "sha256": "ffd2a966dc9f9b875199acc18fb3318952761bb7a14abc286657550518ce9091",
+      "bytes": 2448,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/good-touch-principle-question-3/good-touch-principle-question-3.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-3/good-touch-principle-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-3/good-touch-principle-question-3.yml",
+      "source_sha256": "44a509d9dc1196d2946aa6f8fa3edb1d5b68d1e73f33b635f4802ce72a22a167",
+      "sha256": "44a509d9dc1196d2946aa6f8fa3edb1d5b68d1e73f33b635f4802ce72a22a167",
+      "bytes": 585,
+      "changes": []
+    },
+    "examples/good-touch-principle-question-3/good-touch-principle-answer-3.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-3/good-touch-principle-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-3/good-touch-principle-answer-3.yml",
+      "source_sha256": "83faba0218018eb3add8592d156f81573cafe988264d7228eaf696e18f618997",
+      "sha256": "83faba0218018eb3add8592d156f81573cafe988264d7228eaf696e18f618997",
+      "bytes": 632,
+      "changes": []
+    },
+    "docs/beginner/good-touch-principle-question-3.md": {
+      "source_path": "docs/beginner/good-touch-principle-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-3.mdx",
+      "source_sha256": "eb20301d4a93d67cccbb4c827a48294e87a01f90d3923b66f774393631205340",
+      "sha256": "29bcc992a0353754e9f5510289a367059b6d3569428f7c4d11bc11a5f7693661",
+      "bytes": 2544,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/good-touch-principle-question-4/good-touch-principle-question-4.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-4/good-touch-principle-question-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-4/good-touch-principle-question-4.yml",
+      "source_sha256": "d579a7be5722f86f7b640115ee0ed85eeeb92ced7dad920f79194bce64b28a38",
+      "sha256": "d579a7be5722f86f7b640115ee0ed85eeeb92ced7dad920f79194bce64b28a38",
+      "bytes": 585,
+      "changes": []
+    },
+    "examples/good-touch-principle-question-4/good-touch-principle-answer-4.yml": {
+      "source_path": "docs/beginner/good-touch-principle-question-4/good-touch-principle-answer-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-4/good-touch-principle-answer-4.yml",
+      "source_sha256": "9426dd9053ec862cc628053bd93efb4c566162d9d80c4d4adf564a5b441bcdde",
+      "sha256": "9426dd9053ec862cc628053bd93efb4c566162d9d80c4d4adf564a5b441bcdde",
+      "bytes": 648,
+      "changes": []
+    },
+    "docs/beginner/good-touch-principle-question-4.md": {
+      "source_path": "docs/beginner/good-touch-principle-question-4.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/good-touch-principle-question-4.mdx",
+      "source_sha256": "54c8e22124ab257d2c0e22c7b56ef51fae21a35694575d6a07859c3003e2b319",
+      "sha256": "7f0db00f052244b0522f6fe209451e14d030b895ff666e29b379486c50268820",
+      "bytes": 2380,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/save-principle/save-principle.yml": {
+      "source_path": "docs/beginner/save-principle/save-principle.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle/save-principle.yml",
+      "source_sha256": "0900f9e3c26642ac61c25f919da7f0796a1a864928926975355a630e28374b36",
+      "sha256": "0900f9e3c26642ac61c25f919da7f0796a1a864928926975355a630e28374b36",
+      "bytes": 768,
+      "changes": []
+    },
+    "docs/beginner/save-principle.md": {
+      "source_path": "docs/beginner/save-principle.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle.mdx",
+      "source_sha256": "171701eff37cbfde5c4c10f2c807d6a1f4c92a9a044d7e5bf724b07b8a1f8d49",
+      "sha256": "9253cdfe7bf77c87bfa5bc01e8a4a6883fff9b7770a2c62dc762be9ca6d3bfe9",
+      "bytes": 3265,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/save-principle-question-1/save-principle-question-1.yml": {
+      "source_path": "docs/beginner/save-principle-question-1/save-principle-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle-question-1/save-principle-question-1.yml",
+      "source_sha256": "6542901be1b0825f4427c1250cad408740201c6ab1384ac6ab416be1011fd8a3",
+      "sha256": "6542901be1b0825f4427c1250cad408740201c6ab1384ac6ab416be1011fd8a3",
+      "bytes": 547,
+      "changes": []
+    },
+    "examples/save-principle-question-1/save-principle-answer-1.yml": {
+      "source_path": "docs/beginner/save-principle-question-1/save-principle-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle-question-1/save-principle-answer-1.yml",
+      "source_sha256": "5cb7c6816edbf6b7ac5d61926cf2044113671a9c18f4bcce23a6be00f13cceb8",
+      "sha256": "5cb7c6816edbf6b7ac5d61926cf2044113671a9c18f4bcce23a6be00f13cceb8",
+      "bytes": 544,
+      "changes": []
+    },
+    "docs/beginner/save-principle-question-1.md": {
+      "source_path": "docs/beginner/save-principle-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle-question-1.mdx",
+      "source_sha256": "ec985849d88e3c0ad516f583ed274b2d04db2080f3120aa7207e2a318d96e14f",
+      "sha256": "9c8f62a446a7e20183f41153f04e05b623a73264161882c4521187cd8d9d187c",
+      "bytes": 2073,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/save-principle-question-2/save-principle-question-2.yml": {
+      "source_path": "docs/beginner/save-principle-question-2/save-principle-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle-question-2/save-principle-question-2.yml",
+      "source_sha256": "0a2b57ffef3a0cffe256425d3b9c498cb0c3605eb5f4b7b8177193596814de4f",
+      "sha256": "0a2b57ffef3a0cffe256425d3b9c498cb0c3605eb5f4b7b8177193596814de4f",
+      "bytes": 541,
+      "changes": []
+    },
+    "examples/save-principle-question-2/save-principle-answer-2.yml": {
+      "source_path": "docs/beginner/save-principle-question-2/save-principle-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle-question-2/save-principle-answer-2.yml",
+      "source_sha256": "dbb8134451c671be350dc65fb27ee8bc84320eeb9ef432a8e6af8b7110e71d4e",
+      "sha256": "dbb8134451c671be350dc65fb27ee8bc84320eeb9ef432a8e6af8b7110e71d4e",
+      "bytes": 599,
+      "changes": []
+    },
+    "docs/beginner/save-principle-question-2.md": {
+      "source_path": "docs/beginner/save-principle-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/save-principle-question-2.mdx",
+      "source_sha256": "ce775439e2c52c160abbc11e5796495c2c1176fd7ff0aca01ee42b0da4f19b23",
+      "sha256": "c9f61497591edf649d384d6b4e9872726664694cddee06a64cb15806e64fbe61",
+      "bytes": 2727,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/minimum-clue-value-principle/tempo-clue.yml": {
+      "source_path": "docs/beginner/minimum-clue-value-principle/tempo-clue.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/minimum-clue-value-principle/tempo-clue.yml",
+      "source_sha256": "828a8309bb6670fabff20eaacd700ad5728b57535027cf563b7a12dd9ab9061f",
+      "sha256": "828a8309bb6670fabff20eaacd700ad5728b57535027cf563b7a12dd9ab9061f",
+      "bytes": 417,
+      "changes": []
+    },
+    "docs/beginner/minimum-clue-value-principle.md": {
+      "source_path": "docs/beginner/minimum-clue-value-principle.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/minimum-clue-value-principle.mdx",
+      "source_sha256": "8b61466e603613afb1d63e4d6124a2b2086f55fe993af91ba4da16ef32feaf88",
+      "sha256": "a36edd733538ecc8d9e01e01cc3eb1fba152fc3b58a9be5a1ff603ea8da4d962",
+      "bytes": 2868,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/minimum-clue-value-principle-question-1/minimum-clue-value-principle-question-1.yml": {
+      "source_path": "docs/beginner/minimum-clue-value-principle-question-1/minimum-clue-value-principle-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/minimum-clue-value-principle-question-1/minimum-clue-value-principle-question-1.yml",
+      "source_sha256": "8c7f3c09ee9c3c346136d07e530aa08b164a9d903f72a20cfb3d1168fb7ecc1a",
+      "sha256": "8c7f3c09ee9c3c346136d07e530aa08b164a9d903f72a20cfb3d1168fb7ecc1a",
+      "bytes": 626,
+      "changes": []
+    },
+    "examples/minimum-clue-value-principle-question-1/minimum-clue-value-principle-answer-1.yml": {
+      "source_path": "docs/beginner/minimum-clue-value-principle-question-1/minimum-clue-value-principle-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/minimum-clue-value-principle-question-1/minimum-clue-value-principle-answer-1.yml",
+      "source_sha256": "d9695763d85f2fd8f945e7f65dd3b1b37b8ded2a4883e62553ac7c05153d08b0",
+      "sha256": "d9695763d85f2fd8f945e7f65dd3b1b37b8ded2a4883e62553ac7c05153d08b0",
+      "bytes": 1059,
+      "changes": []
+    },
+    "docs/beginner/minimum-clue-value-principle-question-1.md": {
+      "source_path": "docs/beginner/minimum-clue-value-principle-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/minimum-clue-value-principle-question-1.mdx",
+      "source_sha256": "398e79f7e63559fe796582f5d4fbda1ff9fe9a6bea73e4eaf4dccb1691c29eb2",
+      "sha256": "41428b5321a6b99aa6620abc46bc7a40b0b8cba02c7feb237e51626e64310357",
+      "bytes": 3508,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "docs/beginner/early-game.md": {
+      "source_path": "docs/beginner/early-game.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game.mdx",
+      "source_sha256": "f09723f1013094729aa7e5f9c014a59d4883807c9262d15ce1f88836a45b1581",
+      "sha256": "b299933ac67eeaab1b513b74eaf89920b28f9bc1e53ddd9c947f72010e2336e9",
+      "bytes": 1031,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/early-game-question-1/early-game-question-1.yml": {
+      "source_path": "docs/beginner/early-game-question-1/early-game-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-1/early-game-question-1.yml",
+      "source_sha256": "b540270cb4e98d9a47fe21b4204543473b2e4042661f55da7e172c189e6ad6f1",
+      "sha256": "b540270cb4e98d9a47fe21b4204543473b2e4042661f55da7e172c189e6ad6f1",
+      "bytes": 376,
+      "changes": []
+    },
+    "examples/early-game-question-1/early-game-answer-1.yml": {
+      "source_path": "docs/beginner/early-game-question-1/early-game-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-1/early-game-answer-1.yml",
+      "source_sha256": "1a8cee2f59fb29d24d506657979c93cb3b8d1dd048fe4cf639d0f997fa8f4a82",
+      "sha256": "1a8cee2f59fb29d24d506657979c93cb3b8d1dd048fe4cf639d0f997fa8f4a82",
+      "bytes": 402,
+      "changes": []
+    },
+    "docs/beginner/early-game-question-1.md": {
+      "source_path": "docs/beginner/early-game-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-1.mdx",
+      "source_sha256": "7831c2dc5896a16d7123d6ff15780b5a23f719372b727726e2ef700e4d27bc0a",
+      "sha256": "bff710c44087d0312f59659d364c4e13fe0e3f862ff6a5d86bcc580b716e812e",
+      "bytes": 1588,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/early-game-question-2/early-game-question-2.yml": {
+      "source_path": "docs/beginner/early-game-question-2/early-game-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-2/early-game-question-2.yml",
+      "source_sha256": "d9c52027a37e9c6799f5772858262219a5ebba96064ac6b61bdddb0cae1c7aff",
+      "sha256": "d9c52027a37e9c6799f5772858262219a5ebba96064ac6b61bdddb0cae1c7aff",
+      "bytes": 525,
+      "changes": []
+    },
+    "examples/early-game-question-2/early-game-answer-2.yml": {
+      "source_path": "docs/beginner/early-game-question-2/early-game-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-2/early-game-answer-2.yml",
+      "source_sha256": "2ce3098c9242435404572179732803a1f7bfeb80eb79e6845b9cb0d36f5195ae",
+      "sha256": "2ce3098c9242435404572179732803a1f7bfeb80eb79e6845b9cb0d36f5195ae",
+      "bytes": 625,
+      "changes": []
+    },
+    "docs/beginner/early-game-question-2.md": {
+      "source_path": "docs/beginner/early-game-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-2.mdx",
+      "source_sha256": "5b932c53b655b6b1400899a22a0f5c51cbea311582b815fccec0559056a3fe22",
+      "sha256": "61cd6050e1be636aeb73412d38ca725f485430e18ab490e8c40e11d67b0fe0bf",
+      "bytes": 2393,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/early-game-question-3/early-game-question-3.yml": {
+      "source_path": "docs/beginner/early-game-question-3/early-game-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-3/early-game-question-3.yml",
+      "source_sha256": "d44af9516eaab5e14cdaced85f761d0fc1ec4be1cef8e4cac7e1f2330200d389",
+      "sha256": "d44af9516eaab5e14cdaced85f761d0fc1ec4be1cef8e4cac7e1f2330200d389",
+      "bytes": 642,
+      "changes": []
+    },
+    "examples/early-game-question-3/early-game-answer-3.yml": {
+      "source_path": "docs/beginner/early-game-question-3/early-game-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-3/early-game-answer-3.yml",
+      "source_sha256": "dc646d24f9960800264830a34588b9fc745b7ad6832947908848e23a261ae301",
+      "sha256": "dc646d24f9960800264830a34588b9fc745b7ad6832947908848e23a261ae301",
+      "bytes": 679,
+      "changes": []
+    },
+    "docs/beginner/early-game-question-3.md": {
+      "source_path": "docs/beginner/early-game-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-3.mdx",
+      "source_sha256": "044c8b7f9c63be487ec4063104cd8c9d8561c39f5aed837bc0268d1795baa0fb",
+      "sha256": "9c2e010213894869ba67366cea1e7b4d321a4882699a9d8ae4d87426b0331516",
+      "bytes": 2241,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/early-game-question-4/early-game-question-4.yml": {
+      "source_path": "docs/beginner/early-game-question-4/early-game-question-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-4/early-game-question-4.yml",
+      "source_sha256": "c8d878ae3b0ad2c0ef0ff12037ade7c92b542945c518b0e0c363504f4cca9056",
+      "sha256": "c8d878ae3b0ad2c0ef0ff12037ade7c92b542945c518b0e0c363504f4cca9056",
+      "bytes": 686,
+      "changes": []
+    },
+    "examples/early-game-question-4/early-game-answer-4.yml": {
+      "source_path": "docs/beginner/early-game-question-4/early-game-answer-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-4/early-game-answer-4.yml",
+      "source_sha256": "c4406db6ce4a248aac3321811f8bb54750e123aaee61ed4e8e75f6bf4be715d3",
+      "sha256": "c4406db6ce4a248aac3321811f8bb54750e123aaee61ed4e8e75f6bf4be715d3",
+      "bytes": 709,
+      "changes": []
+    },
+    "docs/beginner/early-game-question-4.md": {
+      "source_path": "docs/beginner/early-game-question-4.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/early-game-question-4.mdx",
+      "source_sha256": "2c206e451c4309cbe1690648a605e6488434d4cb4af34f115b7dbd1e2ac6be6b",
+      "sha256": "0f074779dc0934d9235db2aae7db44bbb2a0629e37182946fda4cab22efa9e7c",
+      "bytes": 2192,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "docs/beginner/other-general-strategy.md": {
+      "source_path": "docs/beginner/other-general-strategy.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy.mdx",
+      "source_sha256": "e22f0df512d3be9c0064d739a7cc8482d39e91e200113eefacc498b141119202",
+      "sha256": "d38b7bf880ab5a15333f1e1e8b0fcae8ebdcc0f925e6757f08a8473d94eee4f9",
+      "bytes": 1969,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/other-general-strategy-question-1/other-general-strategy-question-1.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-1/other-general-strategy-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-1/other-general-strategy-question-1.yml",
+      "source_sha256": "29e1e3eb53d1722953ed51c3f3004926746d746b63c9cf28ba102e1cb8b237cd",
+      "sha256": "29e1e3eb53d1722953ed51c3f3004926746d746b63c9cf28ba102e1cb8b237cd",
+      "bytes": 641,
+      "changes": []
+    },
+    "examples/other-general-strategy-question-1/other-general-strategy-answer-1.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-1/other-general-strategy-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-1/other-general-strategy-answer-1.yml",
+      "source_sha256": "a8cd5e06e18e53b5486ae98436cf1c3a083a7100785db4f0046edf01910b4875",
+      "sha256": "a8cd5e06e18e53b5486ae98436cf1c3a083a7100785db4f0046edf01910b4875",
+      "bytes": 699,
+      "changes": []
+    },
+    "docs/beginner/other-general-strategy-question-1.md": {
+      "source_path": "docs/beginner/other-general-strategy-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-1.mdx",
+      "source_sha256": "885af54192b05f82f58e0c3a1e99847c7f5ea1855d2491b4e36f445dd5c3bac2",
+      "sha256": "710c93493649df9ce75da411b7428b67e4e6932e3478ce01de1c6d9da9155430",
+      "bytes": 2386,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/other-general-strategy-question-2/other-general-strategy-question-2.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-2/other-general-strategy-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-2/other-general-strategy-question-2.yml",
+      "source_sha256": "dd57dc4ce2259eb8e10666db2304da8a2628c771935e14ebd20f35bfa0ee71db",
+      "sha256": "dd57dc4ce2259eb8e10666db2304da8a2628c771935e14ebd20f35bfa0ee71db",
+      "bytes": 613,
+      "changes": []
+    },
+    "examples/other-general-strategy-question-2/other-general-strategy-answer-2.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-2/other-general-strategy-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-2/other-general-strategy-answer-2.yml",
+      "source_sha256": "1409ee5cb40ba351518f882de1bfaf8358af2f5e6b2801e356b949be9119dccc",
+      "sha256": "1409ee5cb40ba351518f882de1bfaf8358af2f5e6b2801e356b949be9119dccc",
+      "bytes": 650,
+      "changes": []
+    },
+    "docs/beginner/other-general-strategy-question-2.md": {
+      "source_path": "docs/beginner/other-general-strategy-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-2.mdx",
+      "source_sha256": "466b2ba01a59dca0e5643d9db357426a90c0032de4e1b08f190af3832c358649",
+      "sha256": "5fdd653c95adb7a8fac20625ba5c6b166279491acef52c52955af54089277a60",
+      "bytes": 2398,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/other-general-strategy-question-3/other-general-strategy-question-3.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-3/other-general-strategy-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-3/other-general-strategy-question-3.yml",
+      "source_sha256": "0010344554b1ffa2f0d57cf151050fcf3ebc7615c4dd64270b42e51d8832ef9f",
+      "sha256": "0010344554b1ffa2f0d57cf151050fcf3ebc7615c4dd64270b42e51d8832ef9f",
+      "bytes": 563,
+      "changes": []
+    },
+    "examples/other-general-strategy-question-3/other-general-strategy-answer-3.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-3/other-general-strategy-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-3/other-general-strategy-answer-3.yml",
+      "source_sha256": "1dfed90a0de2426c2c05eb3e45941ebff89edca06f4d2ba468385b1ba5b8553b",
+      "sha256": "1dfed90a0de2426c2c05eb3e45941ebff89edca06f4d2ba468385b1ba5b8553b",
+      "bytes": 577,
+      "changes": []
+    },
+    "docs/beginner/other-general-strategy-question-3.md": {
+      "source_path": "docs/beginner/other-general-strategy-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-3.mdx",
+      "source_sha256": "191a3ffce83dcce4d0ee6dde29c5ff1ff53f1942b3a9558a64d4687ef91ffd01",
+      "sha256": "b960f061e11042eaec391a71314a48ad844c3f203d2d0253bb10347df7f0f8b9",
+      "bytes": 2677,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/other-general-strategy-question-4/other-general-strategy-question-4.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-4/other-general-strategy-question-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-4/other-general-strategy-question-4.yml",
+      "source_sha256": "0e7d4120f1bd8734052e9e384ad5e907ac40bb73f3af9027c734386e9a133aa5",
+      "sha256": "0e7d4120f1bd8734052e9e384ad5e907ac40bb73f3af9027c734386e9a133aa5",
+      "bytes": 470,
+      "changes": []
+    },
+    "examples/other-general-strategy-question-4/other-general-strategy-answer-4.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-4/other-general-strategy-answer-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-4/other-general-strategy-answer-4.yml",
+      "source_sha256": "0484de52989ce461452585fc0ca96cbd3df2001674ec9b2ff15528527f900aaa",
+      "sha256": "0484de52989ce461452585fc0ca96cbd3df2001674ec9b2ff15528527f900aaa",
+      "bytes": 507,
+      "changes": []
+    },
+    "docs/beginner/other-general-strategy-question-4.md": {
+      "source_path": "docs/beginner/other-general-strategy-question-4.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-4.mdx",
+      "source_sha256": "1e1af26a65de1df17587fa85aed8cc8047189fb2877cfe2caa0400c645918f70",
+      "sha256": "6f04e8532167053370ede26aea1227c1108f671455d336c07946c814209abd06",
+      "bytes": 2340,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/other-general-strategy-question-5/other-general-strategy-question-5.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-5/other-general-strategy-question-5.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-5/other-general-strategy-question-5.yml",
+      "source_sha256": "568f248fe83b034a5bc19343000ddb846254c5d94df8a4fa0c6a01d316118323",
+      "sha256": "568f248fe83b034a5bc19343000ddb846254c5d94df8a4fa0c6a01d316118323",
+      "bytes": 470,
+      "changes": []
+    },
+    "examples/other-general-strategy-question-5/other-general-strategy-answer-5.yml": {
+      "source_path": "docs/beginner/other-general-strategy-question-5/other-general-strategy-answer-5.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-5/other-general-strategy-answer-5.yml",
+      "source_sha256": "3033239086d25beafff41a95c2856ea512d8b5785f49704ca0fc3ae96dc84961",
+      "sha256": "3033239086d25beafff41a95c2856ea512d8b5785f49704ca0fc3ae96dc84961",
+      "bytes": 528,
+      "changes": []
+    },
+    "docs/beginner/other-general-strategy-question-5.md": {
+      "source_path": "docs/beginner/other-general-strategy-question-5.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/other-general-strategy-question-5.mdx",
+      "source_sha256": "d343c02ded5b447694747e3608c12ca02724f7a4f8b97f919078974a964e8723",
+      "sha256": "0d9c689b829833346a848e598a9d1ac7499ddad590dca32cc55286fd2f48be34",
+      "bytes": 2310,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "docs/beginner/special-moves.md": {
+      "source_path": "docs/beginner/special-moves.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/special-moves.mdx",
+      "source_sha256": "22c9883557d8b3051fadfd8f81524591e3eaca8b37896cf5c2955dd608781b0c",
+      "sha256": "dd84e8fa54929b0e8b4f7b986257b299ac51a3cd52f5d8ca19b50a7f9818d1d9",
+      "bytes": 602,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/prompt/prompt-1.yml": {
+      "source_path": "docs/beginner/prompt/prompt-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt/prompt-1.yml",
+      "source_sha256": "39ca0f3444606ba8da888cf91871335d64fc9d178a9863d2f653a01e6268cdc8",
+      "sha256": "39ca0f3444606ba8da888cf91871335d64fc9d178a9863d2f653a01e6268cdc8",
+      "bytes": 457,
+      "changes": []
+    },
+    "examples/prompt/prompt-2.yml": {
+      "source_path": "docs/beginner/prompt/prompt-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt/prompt-2.yml",
+      "source_sha256": "7509da108455f81d342d4a7a39eef889e3245ba4f5457f28efc972f77d41a086",
+      "sha256": "7509da108455f81d342d4a7a39eef889e3245ba4f5457f28efc972f77d41a086",
+      "bytes": 457,
+      "changes": []
+    },
+    "examples/prompt/prompt-3.yml": {
+      "source_path": "docs/beginner/prompt/prompt-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt/prompt-3.yml",
+      "source_sha256": "622cdaf59d743d1408dcc6d8f3568d69aeaa4a16ffcc5f45d0d65e7e8e2303fe",
+      "sha256": "622cdaf59d743d1408dcc6d8f3568d69aeaa4a16ffcc5f45d0d65e7e8e2303fe",
+      "bytes": 553,
+      "changes": []
+    },
+    "examples/prompt/prompt-4.yml": {
+      "source_path": "docs/beginner/prompt/prompt-4.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt/prompt-4.yml",
+      "source_sha256": "fcb79d81ecceb2ba73ff467b40c387dbaa3ffa0a378bcd144c5dba730604ceeb",
+      "sha256": "fcb79d81ecceb2ba73ff467b40c387dbaa3ffa0a378bcd144c5dba730604ceeb",
+      "bytes": 628,
+      "changes": []
+    },
+    "docs/beginner/prompt.md": {
+      "source_path": "docs/beginner/prompt.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt.mdx",
+      "source_sha256": "2bf838a18f011fd91367b2679c9de97322359babaee3f14c1fb2f64aceedc926",
+      "sha256": "765e8f10750973d1f6b6e57012db6097b43634b6bf728c7f91466e4a155d0500",
+      "bytes": 5714,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/prompt-question-1/prompt-question-1.yml": {
+      "source_path": "docs/beginner/prompt-question-1/prompt-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-1/prompt-question-1.yml",
+      "source_sha256": "d107c968fe94178d64e4f8bde1fd035ef81918aa32132b0cde05ba20753660bd",
+      "sha256": "d107c968fe94178d64e4f8bde1fd035ef81918aa32132b0cde05ba20753660bd",
+      "bytes": 499,
+      "changes": []
+    },
+    "examples/prompt-question-1/prompt-answer-1.yml": {
+      "source_path": "docs/beginner/prompt-question-1/prompt-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-1/prompt-answer-1.yml",
+      "source_sha256": "82bfd169cb6dfbafc2f3f6c3c9a510cab4df57514fee48b0917adef34b7cb7c6",
+      "sha256": "82bfd169cb6dfbafc2f3f6c3c9a510cab4df57514fee48b0917adef34b7cb7c6",
+      "bytes": 519,
+      "changes": []
+    },
+    "docs/beginner/prompt-question-1.md": {
+      "source_path": "docs/beginner/prompt-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-1.mdx",
+      "source_sha256": "2c3eb9183722b7dafa97dcd6c0d06108a70659e1fa6c214c857e16c0b04c830d",
+      "sha256": "b76662ceb39b8379e1edec046f818ccc90c44a0c67e161d3e98073dccb4f86fa",
+      "bytes": 2009,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/prompt-question-2/prompt-question-2.yml": {
+      "source_path": "docs/beginner/prompt-question-2/prompt-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-2/prompt-question-2.yml",
+      "source_sha256": "19633c3673b8a5d96606129fa2c0d11c01c16ee8cf2bea58621df97d3b78b1f5",
+      "sha256": "19633c3673b8a5d96606129fa2c0d11c01c16ee8cf2bea58621df97d3b78b1f5",
+      "bytes": 519,
+      "changes": []
+    },
+    "examples/prompt-question-2/prompt-answer-2.yml": {
+      "source_path": "docs/beginner/prompt-question-2/prompt-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-2/prompt-answer-2.yml",
+      "source_sha256": "8bf79bbc33240acb3fc7b8dcd56485b9439fb8f231eefc8fddeb22be012ad66c",
+      "sha256": "8bf79bbc33240acb3fc7b8dcd56485b9439fb8f231eefc8fddeb22be012ad66c",
+      "bytes": 647,
+      "changes": []
+    },
+    "docs/beginner/prompt-question-2.md": {
+      "source_path": "docs/beginner/prompt-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-2.mdx",
+      "source_sha256": "8cb87125b2261b69d69fc300c44343fcb4a38441cb0ff4f3d59631aa8bd19ac3",
+      "sha256": "d1fb9bd35fb7aa6430f51df4330a62a8137028db14fdba4b827a00e4497f80f8",
+      "bytes": 2466,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/prompt-question-3/prompt-question-3.yml": {
+      "source_path": "docs/beginner/prompt-question-3/prompt-question-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-3/prompt-question-3.yml",
+      "source_sha256": "b22f138143cdf7d27292ae4dae40a50de51645e9ac68fc5e8822a026d26dd25d",
+      "sha256": "b22f138143cdf7d27292ae4dae40a50de51645e9ac68fc5e8822a026d26dd25d",
+      "bytes": 563,
+      "changes": []
+    },
+    "examples/prompt-question-3/prompt-answer-3.yml": {
+      "source_path": "docs/beginner/prompt-question-3/prompt-answer-3.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-3/prompt-answer-3.yml",
+      "source_sha256": "de1e94a21ffd1ebef546d74d6631455c0c373e43357aedbc7fa673311686c12c",
+      "sha256": "de1e94a21ffd1ebef546d74d6631455c0c373e43357aedbc7fa673311686c12c",
+      "bytes": 623,
+      "changes": []
+    },
+    "docs/beginner/prompt-question-3.md": {
+      "source_path": "docs/beginner/prompt-question-3.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/prompt-question-3.mdx",
+      "source_sha256": "e904dec895e34bf39997009bf6f1bf2044153edb007b4a137bf4eebcdafd89e0",
+      "sha256": "6e2750b11fec9bc76227c2575a1226f00e6ec0ac9b8c0341365b94d6b68fc800",
+      "bytes": 2692,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/finesse/finesse-1.yml": {
+      "source_path": "docs/beginner/finesse/finesse-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse/finesse-1.yml",
+      "source_sha256": "05d829d48aad3bbf3e7976f96e4621afb041ceb199fa4eed2054dcb541472889",
+      "sha256": "05d829d48aad3bbf3e7976f96e4621afb041ceb199fa4eed2054dcb541472889",
+      "bytes": 459,
+      "changes": []
+    },
+    "examples/finesse/finesse-2.yml": {
+      "source_path": "docs/beginner/finesse/finesse-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse/finesse-2.yml",
+      "source_sha256": "f7aa76f7c8db7470d0fce26e32341ac04fc1a7271bd83171d3f826262c1ad3e2",
+      "sha256": "f7aa76f7c8db7470d0fce26e32341ac04fc1a7271bd83171d3f826262c1ad3e2",
+      "bytes": 489,
+      "changes": []
+    },
+    "docs/beginner/finesse.md": {
+      "source_path": "docs/beginner/finesse.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse.mdx",
+      "source_sha256": "26bd57078fb2e3755ae88ccb9cbdf47f40c606849d18ca518cb7b2ef7928c426",
+      "sha256": "319e2e1323a9cc5c1f255acfee4ffb5d6beb1dd99320dbc77dae807761c8046f",
+      "bytes": 4243,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/finesse-question-1/finesse-question-1.yml": {
+      "source_path": "docs/beginner/finesse-question-1/finesse-question-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse-question-1/finesse-question-1.yml",
+      "source_sha256": "0b39b0bd4b6eb85ee44490c35047236676b013414b8b2ae972a363cd80dd959b",
+      "sha256": "0b39b0bd4b6eb85ee44490c35047236676b013414b8b2ae972a363cd80dd959b",
+      "bytes": 497,
+      "changes": []
+    },
+    "examples/finesse-question-1/finesse-answer-1.yml": {
+      "source_path": "docs/beginner/finesse-question-1/finesse-answer-1.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse-question-1/finesse-answer-1.yml",
+      "source_sha256": "fbe818ba75cbdd93fe13fab2d33a3021f2e7f282ae15065d71e2a3d1712118d6",
+      "sha256": "fbe818ba75cbdd93fe13fab2d33a3021f2e7f282ae15065d71e2a3d1712118d6",
+      "bytes": 557,
+      "changes": []
+    },
+    "docs/beginner/finesse-question-1.md": {
+      "source_path": "docs/beginner/finesse-question-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse-question-1.mdx",
+      "source_sha256": "1488db9276b9b06f3a1515feb03595c0aecd7c8658eb6f6f96d14507d9ffcc82",
+      "sha256": "3130e2c8190e45feaf9a4b27fafb95044411ace04e330f5494d5291c6c6dd246",
+      "bytes": 2261,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "examples/finesse-question-2/finesse-question-2.yml": {
+      "source_path": "docs/beginner/finesse-question-2/finesse-question-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse-question-2/finesse-question-2.yml",
+      "source_sha256": "792038bfeee531f9c08a402885a54e0eb1a7eeb84fd644562ee9e197921fc0b8",
+      "sha256": "792038bfeee531f9c08a402885a54e0eb1a7eeb84fd644562ee9e197921fc0b8",
+      "bytes": 392,
+      "changes": []
+    },
+    "examples/finesse-question-2/finesse-answer-2.yml": {
+      "source_path": "docs/beginner/finesse-question-2/finesse-answer-2.yml",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse-question-2/finesse-answer-2.yml",
+      "source_sha256": "3fa4472db66a0c7caa2d9567953e997bd31c42e7896dabaa8e5531fb4d769ce0",
+      "sha256": "3fa4472db66a0c7caa2d9567953e997bd31c42e7896dabaa8e5531fb4d769ce0",
+      "bytes": 460,
+      "changes": []
+    },
+    "docs/beginner/finesse-question-2.md": {
+      "source_path": "docs/beginner/finesse-question-2.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/beginner/finesse-question-2.mdx",
+      "source_sha256": "ccc029f1aa1c1499ba8253d66217442048920038da8b5a5a81d655a2cae6e1ac",
+      "sha256": "0cf2527544e76e66e3217f37e9eb42b41c28f749c57d9189b32713e0a8c2b729",
+      "bytes": 1802,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution."
+      ]
+    },
+    "docs/level-1.md": {
+      "source_path": "docs/level-1.mdx",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/docs/level-1.mdx",
+      "source_sha256": "318a848d743bb989e012ac780a627dc30b8cf8295905bfa8dc69e9d5063a3638",
+      "sha256": "78c5e804b743069c9bd0d4cbf08e8956e19950ebd048205db83843c6bb5eb6cc",
+      "bytes": 7732,
+      "changes": [
+        "Converted front matter, MDX progress/tabs/imports and diagram components to Markdown; expanded both question and solution; rewrote included links locally; added attribution.",
+        "Omitted human course-progression instructions.",
+        "Omitted Hanab Live UI features, including higher-level card-note shortcuts.",
+        "Omitted Level 5/9 extensions and their links.",
+        "Removed the Level 2 '5 Stall' reference from Double Chop 2's; retained its Level 1 save-before-discard requirement.",
+        "Removed the higher-level trash-touch exception teaser."
+      ]
+    },
+    "LICENSE": {
+      "source_path": "LICENSE",
+      "source_url": "https://github.com/hanabi/hanabi.github.io/blob/a1b0e25ec3536b61dc48efe09468d534b5806962/LICENSE",
+      "source_sha256": "a0bd498de6b7991f563789715e3cf9f9a77860b6bb5b2c2b072fb3bb36361008",
+      "sha256": "a0bd498de6b7991f563789715e3cf9f9a77860b6bb5b2c2b072fb3bb36361008",
+      "bytes": 20005,
+      "changes": []
+    }
+  }
+}

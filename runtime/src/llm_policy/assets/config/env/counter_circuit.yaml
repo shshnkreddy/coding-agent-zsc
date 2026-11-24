@@ -1,0 +1,18 @@
+name: counter_circuit
+env_name: overcooked_v2
+env_kwargs:
+  layout: counter_circuit
+  max_steps: 400
+  agent_view_size: null
+  random_reset: false
+  random_agent_positions: false
+  random_agent_orientations: true
+  pot_cook_time: 20
+  terminate_on_delivery: false
+  start_cooking_interaction: false
+  negative_rewards: false
+  sample_recipe_on_delivery: false
+  indicate_successful_delivery: false
+  force_path_planning: false
+  fix_obs_shape: true
+weight: 1.0
