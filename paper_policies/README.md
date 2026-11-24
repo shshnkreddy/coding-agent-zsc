@@ -1,6 +1,6 @@
 # Final paper policies
 
-The main cross-play experiments produced 462 selected policies across seven models, eleven environments, and six independent seeds. Each model directory uses the environment IDs accepted by the scoring commands. See the [scoring examples](../README.md#results) to evaluate a population or compare two models.
+The main cross-play experiments produced 462 selected policies across seven models, eleven environments, and six independent seeds. Each model directory uses the environment IDs accepted by the scoring commands. See the [scoring examples](../README.md#final-policies) to evaluate a population or compare two models.
 
 ```text
 <model>/<environment>/

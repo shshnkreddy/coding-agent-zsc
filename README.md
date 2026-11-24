@@ -8,7 +8,7 @@
   <a href="#install-on-the-execution-host">Quickstart</a> ·
   <a href="#task-previews">Task previews</a> ·
   <a href="#run-one-environment">Run one environment</a> ·
-  <a href="#results">Results</a> ·
+  <a href="#final-policies">Final policies</a> ·
   <a href="#hybrid-policies">Hybrid policies</a> ·
   <a href="coding_agent_zsc/">Tasks</a>
 </p>
@@ -141,7 +141,7 @@ Seeds 0–5 use prompt variants p0–p5 respectively.
 
 </details>
 
-## Results
+## Final policies
 
 The [final paper policies](paper_policies/) cover seven models, eleven environments, and six seeds. After installation, score a saved population directly from this checkout:
 
