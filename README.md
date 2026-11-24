@@ -157,8 +157,6 @@ coding-zsc-between --env grounded_coord_simple \
   --population fable=paper_policies/fable51/grounded_coord_simple --output reports/astra-fable
 ```
 
-Each model’s `reports/<environment>/xp.csv` is a 6 × 6 matrix. **SP** averages the six diagonal scores, where one policy plays both seats. **IXP** averages the 30 off-diagonal scores, where the seats use policies from different seeds. A heatmap and JSON summary sit beside the CSV. For newly generated runs, the final policies and experiment ledgers live under each environment’s `seed-0/` through `seed-5/` directories.
-
 <details>
 <summary><strong>Score existing runs</strong></summary>
 
