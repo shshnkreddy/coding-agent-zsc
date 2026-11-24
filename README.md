@@ -13,7 +13,9 @@
 
 Each coding agent develops a two-player policy using only **self-play** feedback. After development, we freeze the policies and measure **cross-play** by assigning independently generated policies to opposite seats. The main suite covers six Overcooked V2 layouts, three Yōkai settings, and two Hanabi settings.
 
-## Astra × Fable on Overcooked V2
+<a name="astra--fable-on-overcooked-v2"></a>
+
+## Astra × Fable on Overcooked V2 <sup>🔴 Astra, 🔵 Fable</sup>
 
 <table>
   <tr>
