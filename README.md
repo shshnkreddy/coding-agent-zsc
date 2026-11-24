@@ -6,7 +6,8 @@
   <a href="#astra--fable-on-overcooked-v2">Episodes</a> ·
   <a href="#set-up-with-an-agent">Agent setup</a> ·
   <a href="#install-on-the-execution-host">Quickstart</a> ·
-  <a href="#run-the-main-experiments">Paper experiments</a> ·
+  <a href="#run-one-environment">Run one environment</a> ·
+  <a href="#reproduce-the-main-paper-results">Paper experiments</a> ·
   <a href="#results">Results</a> ·
   <a href="coding_agent_zsc/">Tasks</a>
 </p>
@@ -87,16 +88,27 @@ On the Linux host that will run the experiments, install the agent CLI and confi
 
 For sign-in instructions and the key each provider uses, expand **Configure model access** in the [AutoAstra quickstart](https://github.com/shshnkreddy/autoastra#run-the-demo).
 
-## Run the main experiments
+## Run one environment
 
-The paper grid has **462 sessions**: seven models × eleven environments × six seeds. Each seed receives its matching prompt variant (`0/p0` through `5/p5`), so seed and wording vary together. The first command prints the plan. The second launches generation and held-out scoring.
+Start with **Cat and Dog**. With Codex configured, this command runs six independent seeds in parallel, then evaluates the six selected policies in all 36 ordered pairings.
 
 ```sh
-coding-zsc --paper-models --jobs 6 --output runs/paper --dry-run
-coding-zsc --paper-models --jobs 6 --output runs/paper
+coding-zsc --env cat_dog --jobs 6 --output runs/cat-dog
 ```
 
-The full grid requires access to the seven historical models. For one environment with your configured provider, run `coding-zsc --env grounded_coord_simple --jobs 6 --output runs/grounded`. [Model registry](coding_agent_zsc/experiment.py)
+Open `runs/cat-dog/reports/cat_dog/summary.json` for the self-play (SP) and cross-play (IXP) scores, or `xp.csv` in the same directory for the full matrix. To try another environment, replace `cat_dog` with its ID and choose a new output directory.
+
+## Reproduce the main paper results
+
+The full experiment runs **462 sessions** across seven models, eleven environments, and six seeds. Each seed uses its matching prompt variant (`0/p0` through `5/p5`). You’ll need access to all seven models. [Model registry](coding_agent_zsc/experiment.py)
+
+```sh
+# Inspect the plan
+coding-zsc --paper-models --jobs 6 --output runs/paper --dry-run
+
+# Generate the policies and score cross-play within and between models
+coding-zsc --paper-models --jobs 6 --output runs/paper
+```
 
 <details>
 <summary><strong>Experiment settings and additional suites</strong></summary>
