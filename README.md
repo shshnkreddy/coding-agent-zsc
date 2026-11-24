@@ -157,18 +157,6 @@ coding-zsc-between --env grounded_coord_simple \
   --population fable=paper_policies/fable51/grounded_coord_simple --output reports/astra-fable
 ```
 
-<details>
-<summary><strong>Score existing runs</strong></summary>
-
-```sh
-coding-zsc-xp runs/sol/grounded_coord_simple/seed-* --output reports/within
-coding-zsc-between --env grounded_coord_simple \
-  --population sol=runs/sol/grounded_coord_simple \
-  --population claude=runs/claude/grounded_coord_simple --output reports/between
-```
-
-</details>
-
 ## Hybrid policies
 
 This method uses code policies to guide self-play training.
