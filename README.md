@@ -15,7 +15,7 @@ Each coding agent develops a two-player policy using only **self-play** feedback
 
 <a name="astra--fable-on-overcooked-v2"></a>
 
-## Astra × Fable on Overcooked V2 <sup>🔴 Astra, 🔵 Fable</sup>
+## Astra 🔴 × Fable 🔵 on Overcooked V2
 
 <table>
   <tr>
