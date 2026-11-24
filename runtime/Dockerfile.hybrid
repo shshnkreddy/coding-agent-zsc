@@ -1,0 +1,14 @@
+# Paper GPU stack. A prebuilt AutoAstra CPU image can also serve as the base.
+ARG BASE_IMAGE=nvcr.io/nvidia/jax:24.10-py3@sha256:f4d9ff5123b209a25948eaf05451ee8c0c7ff6f25754069fb93f231bb0f71d9c
+FROM ${BASE_IMAGE}
+USER root
+# Keep the JAX/JAXLIB pair supplied by the base, including NVIDIA's CUDA build.
+RUN python -c "from importlib.metadata import version; print('\n'.join(p+'=='+version(p) for p in ('jax','jaxlib')))" > /tmp/hybrid-jax.txt \
+ && python -m pip install --no-cache-dir -c /tmp/hybrid-jax.txt numpy==1.26.4 flax==0.9.0 optax==0.2.3 chex==0.1.87 distrax==0.1.5 tensorflow-probability==0.25.0 omegaconf==2.3.0 safetensors==0.7.0 gymnax==0.0.9 \
+ && python -m pip install --no-cache-dir --no-deps jaxmarl==0.1.0
+COPY src/llm_policy /opt/hybrid/llm_policy
+COPY docker/llm_policy_jaxmarl/__init__.py /opt/hybrid/jaxmarl/__init__.py
+COPY docker/llm_policy_jaxmarl/environments/__init__.py /opt/hybrid/jaxmarl/environments/__init__.py
+# Load the installed JaxMARL LogWrapper used by the paper's Hanabi trainer.
+RUN python -c "import pathlib,site; (pathlib.Path(site.getsitepackages()[0])/'zz-hybrid.pth').write_text(\"import sys; sys.path.insert(0, '/opt/hybrid')\\n\")"
+ENV XLA_PYTHON_CLIENT_PREALLOCATE=false

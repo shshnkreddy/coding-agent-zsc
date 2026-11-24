@@ -174,17 +174,21 @@ This method uses code policies to guide self-play training.
 ```
 
 <details>
-<summary>Train with a saved Astra policy</summary>
+<summary>Train a Hanabi student with a saved code policy</summary>
+
+Each paper run trained a student in standard two-player Hanabi using one of the six H-Group teachers from Astra or Fable. The example uses Astra teacher 0. All twelve students used training seed 5.
 
 ```sh
+docker build -f runtime/Dockerfile.hybrid -t autoastra-hybrid runtime/
 mkdir -p runs/hybrid
-docker run --rm --user "$(id -u):$(id -g)" \
-  -v "$PWD:/repo:ro" -v "$PWD/runs/hybrid:/out" -w /repo autoastra-zsc:cpu \
-  python scripts/train_hybrid.py --env hanabi_2p \
-    --teacher paper_policies/astra_high/hanabi_2p/seed-0 --output /out/astra-seed-0
+docker run --rm --gpus 1 -e JAX_PLATFORMS=cuda --shm-size=8g --user "$(id -u):$(id -g)" \
+  -v "$PWD:/repo:ro" -v "$PWD/runs/hybrid:/out" -w /repo autoastra-hybrid \
+  python scripts/train_hybrid.py \
+    --teacher paper_policies/astra_high/hanabi_2p_h_group_level_1/seed-0 \
+    --output /out/astra-seed-0
 ```
 
-The trained policy is saved to `runs/hybrid/astra-seed-0/student.msgpack`.
+The final student is saved to `runs/hybrid/astra-seed-0/student.msgpack`. The checkpoint with the highest held-out greedy return when paired with the teacher is in `best_teacher_eval/`. [Training settings and short CPU run](scripts/hanabi/README.md)
 
 </details>
 
