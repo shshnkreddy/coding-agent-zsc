@@ -84,6 +84,6 @@ Reusing an output directory preserves completed populations and cached evaluatio
 
 </details>
 
-The Docker runtime adapts the meta_zsc evaluator. [License](runtime/LICENSE) · [Third-party notices](runtime/THIRD_PARTY_NOTICES.md)
+[License](runtime/LICENSE) · [Third-party notices](runtime/THIRD_PARTY_NOTICES.md)
 
 ## Citation
