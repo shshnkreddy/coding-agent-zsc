@@ -190,8 +190,6 @@ docker run --rm --gpus 1 -e JAX_PLATFORMS=cuda --shm-size=8g --user "$(id -u):$(
     --output /out/astra-seed-0
 ```
 
-The final student is saved to `runs/hybrid/astra-seed-0/student.msgpack`. The checkpoint with the highest held-out greedy return when paired with the teacher is in `best_teacher_eval/`.
-
 </details>
 
 [License](runtime/LICENSE) · [Third-party notices](runtime/THIRD_PARTY_NOTICES.md)
