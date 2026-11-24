@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "yokai_2p_9c_standard",
+  "model": "opus_high",
+  "config_sha256": "686a6f8d065bc8c2b1d2e0bf52bd8d79851d2a4917a1005ef17726f08859a389",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/opus_high/yokai_2p_9c_standard/s0",
+      "candidate_sha256": "519b37097aca8e7004209af855b11f71e169b56db1ef01a18f0dcf2bdfc4b2d3",
+      "context": "ccc6330b4050cdd2af89582fbd6247d7129e128e007d5eaf5f3032023542fbb2",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/opus_high/yokai_2p_9c_standard/s1",
+      "candidate_sha256": "3d8d40a0de16c87a0ead65dd8310f7d5b883765007ead75287fe263dcfbf3d00",
+      "context": "114c265ba051628775335acfb6f73834ab07ae4ec53bd44b87d637263f5e3964",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/opus_high/yokai_2p_9c_standard/s2",
+      "candidate_sha256": "d22967130a533858e34898ebc65c997bd925be68dfda6274eb8782944c29003d",
+      "context": "5eaafbe7b86e61dfe4ae5c2f51565ee7447e3b11ae73608bf5f4000dda97e543",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/opus_high/yokai_2p_9c_standard/s3",
+      "candidate_sha256": "cd449fc54f9c81c8dcfde1c97cca547c8512bc5b73e5d887815d9eba9ae45f30",
+      "context": "ddaff73a1a69f71784fc96b113115d7516a1bd1faa9626913cec16a316da2ff5",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/opus_high/yokai_2p_9c_standard/s4",
+      "candidate_sha256": "47bc13748424f790d6052acd906c069fba1719495a5b46a48206fcd884376d6f",
+      "context": "b8f5f9bc519f0c884aee3b3bb7fbff92f5a94ec0db3d2aa9a23d174b46e94694",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/opus_high/yokai_2p_9c_standard/s5",
+      "candidate_sha256": "9039342e922d0b1db05138dc406392ac29fb31e0245c28450db5a456df0d01ef",
+      "context": "e85f464e7e56124e7e98f7bae9e214643ce3b7867140157a437d9f917d30a138",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

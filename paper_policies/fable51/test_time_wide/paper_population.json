@@ -1,0 +1,110 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "test_time_wide",
+  "model": "fable51",
+  "config_sha256": "16d184c65d30fbfc8ce56fdf540dccb70c83452f9c7e0b4a1c7cf1573d87d4d8",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/fable51/test_time_wide/s0",
+      "candidate_sha256": "f786340ded4dd04ce5862a2d46073eff505d85a9e6e49184e0e3c3bc9a816651",
+      "context": "849bea6e278654ad77f2c58704c1cddf302c71916db346fc0fd25a31e8c73d06",
+      "generation": {
+        "dev_seed": 0,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/fable51/test_time_wide/s1",
+      "candidate_sha256": "2ddaa8c0d1e540ddb6f1877c395fd1bd68f41b4f1f4c93d31511d84e4dc296c4",
+      "context": "6b082a781f4f4b9e7d767dc6d38ca7073a14fc45b3a960d7ac4722cc8c58ae96",
+      "generation": {
+        "dev_seed": 1,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/fable51/test_time_wide/s2",
+      "candidate_sha256": "3fe5a073764a974faee8f6710bdc59d2d7acbc1477c019e4a05171d345502458",
+      "context": "12ff26fb8c8e0e9dfa0391aacc6a58b92aff11c048e2f02d15c602d507addff0",
+      "generation": {
+        "dev_seed": 2,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/fable51/test_time_wide/s3",
+      "candidate_sha256": "0e4734a8d8064df7d20961504f67b758ae058a3c1bc8112e0bf4d0ba13387926",
+      "context": "d7a7e43000c45f4db33bb44822243a03ffa89c605bfe0c189248ee868874dde6",
+      "generation": {
+        "dev_seed": 3,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/fable51/test_time_wide/s4",
+      "candidate_sha256": "e242e3c1a8818abc9e0a21b937e74a608bee7600b8cb528e8f517f88ad447ae3",
+      "context": "69c05df624b8f3438886740b4e860bef554f10e5ac2b474b8f7ffab35b9015bb",
+      "generation": {
+        "dev_seed": 4,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/fable51/test_time_wide/s5",
+      "candidate_sha256": "625309ff6c1fada1eeb06d9a70d6aa05d12b67ba12c60a92e27e7405fb0cba9c",
+      "context": "c7c1adb0a48bb8087632a28483a36f019a0bfebb07ba69db0070e150fe413b9e",
+      "generation": {
+        "dev_seed": 5,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    }
+  }
+}

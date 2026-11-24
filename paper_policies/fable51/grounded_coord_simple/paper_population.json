@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "grounded_coord_simple",
+  "model": "fable51",
+  "config_sha256": "cbddb7a2ccc2b664b3da63e30572c7e996670641f4ee2f4a3b42ed6a00ba0899",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/fable51/grounded_coord_simple/s0",
+      "candidate_sha256": "17793e3157be87c6df23c8e2d9fc0a4152a7da12f2254b26d83a1446d79fff53",
+      "context": "87b20c9630ca97c65e5d3873718f0af8480e39b5651101d6ff151660b1b34a4d",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/fable51/grounded_coord_simple/s1",
+      "candidate_sha256": "4408650b696a27419b880d4fd28d0f502f8f90b9fa714789b9e9b6ff5da256f0",
+      "context": "fa5011bdc5045abf17d485f8f54b3b0091ba8c4140545c3094211b4bb7c774e6",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/fable51/grounded_coord_simple/s2",
+      "candidate_sha256": "55d72dd949edb7cedd049d01f8cf1f2152da18f57b040cccd95b763c1b13aa83",
+      "context": "c7f7a0a7f474a4975a44ab3499ba7fa3ee91386003f0505de97f49b7f28ef7a0",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/fable51/grounded_coord_simple/s3",
+      "candidate_sha256": "8b7532f9ef77b02dd63d84c5ec1a4feac3d7430a295cc71867c66d4a95012a78",
+      "context": "e1a6499d469536994c05fb6e745b115cae6e4046728699ded3c19c43c4c26a8d",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/fable51/grounded_coord_simple/s4",
+      "candidate_sha256": "b7409a25c64eacb847bf35d9eccc3f7f83654ed9af1ff6631db7564686f71284",
+      "context": "056ac9b44d9dda5ab7b8ec2145dfee303da2e5f9a6d67d7d8fc4663aeef26d85",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/fable51/grounded_coord_simple/s5",
+      "candidate_sha256": "2e8e0775e7bbcfb4a781160f1ac724309b738d8ab7acb626517270f7d67378af",
+      "context": "5f44a9028b5454138938084879824f4ef886834cc4597543189b6f6e036e829e",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

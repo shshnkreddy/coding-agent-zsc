@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "demo_cook_wide",
+  "model": "sol56_high",
+  "config_sha256": "34f51d765e6a6b75de59be61e7dcb75deafae1000cd346eaf7770382eb2c43e2",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/sol56_high/demo_cook_wide/s0",
+      "candidate_sha256": "335efa8c8d792773f8b4ce9fe4855052bf9dfd42e6450acd5dac4bae1d947cdb",
+      "context": "0f9193af6b48ead5c586922dcd9b2fd59d5cf0fa49a331540f1d3f51272279ce",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/sol56_high/demo_cook_wide/s1",
+      "candidate_sha256": "869562e5f5cdbdb27584d56f6f0c8aea579b871e113ba1f84cc5ab1b0aa4c634",
+      "context": "570368e8513eefa2f59f94471d62a7c3797324b1626b65260727454bb4f56fbe",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/sol56_high/demo_cook_wide/s2",
+      "candidate_sha256": "947407816d8d127826d55bed2e7549482f49ced9dea48f9ce80ca94e2802e3da",
+      "context": "c4bb61ea6ce3987d8742cf612435a16d54db22f09750931e1407368d33647dea",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/sol56_high/demo_cook_wide/s3",
+      "candidate_sha256": "3180fdc915faee7d6461bb6ec51fcb53aae9fc0d8388b2f999c4f8b9ed5ebd2f",
+      "context": "ebff6aff605cc2a43784b8254a65d19b464b23750e54ce63f0e3ff7489c43952",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/sol56_high/demo_cook_wide/s4",
+      "candidate_sha256": "ef919ca2ac9c6a5642d4059490d3707bebacf56f3997ff959da70b3287b47305",
+      "context": "820b29e1c0e132cf6fb637652bdb849569bb3aa18b00faa8bbc81ab9eb9155f1",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/sol56_high/demo_cook_wide/s5",
+      "candidate_sha256": "a48a52f223b5777f17311474d59417b523e04b87be8edb4502b9f0c264602959",
+      "context": "25306deb1f54d781ce650b16f34b7cebde729f27d190086eb95035a0201773ed",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-sol",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

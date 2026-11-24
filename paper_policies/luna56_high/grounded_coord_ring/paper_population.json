@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "grounded_coord_ring",
+  "model": "luna56_high",
+  "config_sha256": "1957edf3b15f2a8042b12b20b530a1301945cd1159410ae9028a1f2f20640912",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/luna56_high/grounded_coord_ring/s0",
+      "candidate_sha256": "0a79773e29dd36b88c216fc086778bc937977fce81d91a01de6ca0698a917266",
+      "context": "fbdcdf24fc398ff82c67eea9c8c23cc2a8a324adce5787cd96dab33df8fcfe54",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/luna56_high/grounded_coord_ring/s1",
+      "candidate_sha256": "45d5585415672d0aa632ffbc8909b01f32758029756f96f40b2c436522a1cd98",
+      "context": "4fbd40646ccf7f26d98749e7390e4599da7e255f9d9fcf2f73e1f74f1536a611",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/luna56_high/grounded_coord_ring/s2",
+      "candidate_sha256": "bd4005253118371fc60d6fed9a9daa900e564c3c30fa19739142926d54a1ec10",
+      "context": "75967c4fc9c8f67c7756fc3d275da02a4ac546e65fc53e14f60ff89002fe9ffe",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/luna56_high/grounded_coord_ring/s3",
+      "candidate_sha256": "533f0336e51c5dd29627738aa0fe0934bc4be2286fed82d50d9a3101781f64d5",
+      "context": "648570d66eb1e8ffc6de4c594298efb6f88e19566ff5c7e4cf1b2e1bf40fdfc5",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/luna56_high/grounded_coord_ring/s4",
+      "candidate_sha256": "7526ee08d927a3342560d4fcabf561b5359b7182c0009ab175f5081f9d604876",
+      "context": "d4f393a435416d8427eaa0274f80ba27415c2cdc3230c5d250ba65d4649532d1",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/luna56_high/grounded_coord_ring/s5",
+      "candidate_sha256": "ed5a176efa6b8112cef818c6b0bfe1f377076aa2c460c418cd9aec0a35cff6f8",
+      "context": "83020d59d7c56e5c15fa057f3602b67e015b9922e4e202960fc1dad11e238f78",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.6-luna",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

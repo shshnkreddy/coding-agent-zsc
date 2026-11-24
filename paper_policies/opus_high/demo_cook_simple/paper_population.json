@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "demo_cook_simple",
+  "model": "opus_high",
+  "config_sha256": "0ec81048aeadf1897d790f0d3ce115c230adbc48fbc36e27a9f7c3704b220ac2",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/opus_high/demo_cook_simple/s0",
+      "candidate_sha256": "ea9b48e167ff732c69d3f5ce363b5e66a72a824140399f08386c90782fbd3ae0",
+      "context": "283aeed2657f2c16dcad52d7ba622690de38a4cd5d59c485b2ac476255eed42f",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/opus_high/demo_cook_simple/s1",
+      "candidate_sha256": "9a5309de8d105f9bf5989809cdd6cd7abd27b0ba37b09dbef12d46f92be577bb",
+      "context": "a88a5b020c431c44c890de028f67019e3b35bd22cf50ff8342091fc0ec0f5e4e",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/opus_high/demo_cook_simple/s2",
+      "candidate_sha256": "1f5c604d0e4e1ec3ddfe7d51420232c16b5a38c0e53c33577ad3393c6ef8a00a",
+      "context": "618705d2487a5b97e8fafee4164b7faa8adaa95ce3eaf93cf31ebbd07ee30e50",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/opus_high/demo_cook_simple/s3",
+      "candidate_sha256": "7d3718a0aaff99920db07b17cb344abc1932ed1a53f530cf59b291feac5d3648",
+      "context": "de1533e02a09e19d50c35ab6661eef94d767ee7e5ba6d4042f72b2fe1cc14bfb",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/opus_high/demo_cook_simple/s4",
+      "candidate_sha256": "abac333ea53bf9516f93d78f7419495a365f7fb5865d96d5e23310b370f00263",
+      "context": "ecf5972ad046791d9db2cb3516b06dc603b507103b7a26b17b98c89e54c90be8",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/opus_high/demo_cook_simple/s5",
+      "candidate_sha256": "8816472dfeb17088bbc9f89158ee4fa62b32ae131b845fe36101b38592175fa1",
+      "context": "8f487bc120522084483344f934c813600c4f8bc2ccac2f7c43054ee90b05d23d",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "hanabi_2p",
+  "model": "astra_high",
+  "config_sha256": "33f659f005b22f9ae6c3df1f269ef76ee931e526c549a553fb9d24090f2a6b10",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/astra_high/hanabi_2p/s0",
+      "candidate_sha256": "23d6dce86f818c6e9f8c49b89e1b3c9e7f0d8cf48134483a282708785b79e59b",
+      "context": "9043d47f9e5ab65dccdef72a9a9505da1d414efb9bfdb0d3581423264d2cd00a",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/astra_high/hanabi_2p/s1",
+      "candidate_sha256": "ae16de606f5193d107dd230b42aba7b86089faba8bc17f71cc64e16cdc5cdf34",
+      "context": "8e078ed0d85d1403a3899c8e23b0e254e15fcd6a41b204d9b8adbfc225e2f1fa",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/astra_high/hanabi_2p/s2",
+      "candidate_sha256": "171a953121255ad0aff3668352bd0f7ca68849ef66101567afbbcc0018945596",
+      "context": "56311b02d863b4435ada18631be53d753ee08863edb70506ce7fed1469e0840f",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/astra_high/hanabi_2p/s3",
+      "candidate_sha256": "717ea09a775a860747ea986212532cf19c1fa713806abde5d92e4655e31c6be7",
+      "context": "5bd6d62b3dc692af1cc55518a36b12a63039ee3780a84ebf2c32e2d50e255a9a",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/astra_high/hanabi_2p/s4",
+      "candidate_sha256": "68bc45f416f8dadace265d23b6884da9ff3fda8fdb134b215bafded570ffbd8f",
+      "context": "86481d12a117ae509dec2209d3e0087a888326da9e585d45d22c89175493da58",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/astra_high/hanabi_2p/s5",
+      "candidate_sha256": "10839c462bab9b70a8a7080355de79bd12c2e294abab77c81728f903437ad485",
+      "context": "3047f0a4fa0a411463a1d32d7160d280431a90cf1acf87b6ab7883ea82947f80",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

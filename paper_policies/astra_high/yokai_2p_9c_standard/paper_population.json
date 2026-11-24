@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "yokai_2p_9c_standard",
+  "model": "astra_high",
+  "config_sha256": "686a6f8d065bc8c2b1d2e0bf52bd8d79851d2a4917a1005ef17726f08859a389",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/astra_high/yokai_2p_9c_standard/s0",
+      "candidate_sha256": "1933aa15229151d21df77098e08344ce30177db760f227f8bff6849c49588b4c",
+      "context": "513d1d28c5428b2327365af05bc11034a4c9f13e0328c2ce13ae5d7a2c55f65c",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/astra_high/yokai_2p_9c_standard/s1",
+      "candidate_sha256": "f63061a979970c522d80011de6f09b248c40a93f1c61af67d3614f7cf9202f87",
+      "context": "114c265ba051628775335acfb6f73834ab07ae4ec53bd44b87d637263f5e3964",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/astra_high/yokai_2p_9c_standard/s2",
+      "candidate_sha256": "dfe6788a793583a5a961c1a47191a971565de5b450fb1144945b2153989d20b7",
+      "context": "5eaafbe7b86e61dfe4ae5c2f51565ee7447e3b11ae73608bf5f4000dda97e543",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/astra_high/yokai_2p_9c_standard/s3",
+      "candidate_sha256": "000f6e3529521868fb6fa37fb558300d7031e4f3d8d63c19d8fa0e9107b374a9",
+      "context": "ddaff73a1a69f71784fc96b113115d7516a1bd1faa9626913cec16a316da2ff5",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/astra_high/yokai_2p_9c_standard/s4",
+      "candidate_sha256": "daece7b82312c1a759029fa35be5d3c913a6bac88395e4a9c52fbd5732c19b4c",
+      "context": "b8f5f9bc519f0c884aee3b3bb7fbff92f5a94ec0db3d2aa9a23d174b46e94694",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/astra_high/yokai_2p_9c_standard/s5",
+      "candidate_sha256": "6f59db5f29481abca607497c3ec8c43a9700e962083c87a75a6e87473f8548d5",
+      "context": "e7e0a0e65584a037d3c0aefae5069c4b375939c9da4600936ba161f84ad8fff6",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-6-astra",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

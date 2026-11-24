@@ -1,0 +1,94 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "test_time_simple",
+  "model": "fable51",
+  "config_sha256": "c08578d175546a6041f175fdec60163f961ca7ef56d86b47472f9bf697ace9d6",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/fable51/test_time_simple/s0",
+      "candidate_sha256": "1c24a608a84e6d4477ce4ca75a45c2da4e0590237a58b1ab986ce23f60318794",
+      "context": "3df32a6cec9200d80e2397d4c893a2601e1ca4568707073dc263ea6ec524ab6d",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/fable51/test_time_simple/s1",
+      "candidate_sha256": "b5de65b352d25431bfd15833b8812bc21a24e7261b2bd9a3de6b06a99b758d89",
+      "context": "dd052035b7dbe43a9a6a78af851ffe8e6863f326760b9d2c3b0aefbb72b242b5",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/fable51/test_time_simple/s2",
+      "candidate_sha256": "4a2bca0408241a12f6d0da1e71be62179dc038559a059e8f7a60c53378459d8d",
+      "context": "ab587772d152b544f6c3f9b51dd2c40e0d6f3bcbe00dae0a10666a5e36da6458",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/fable51/test_time_simple/s3",
+      "candidate_sha256": "f768b48096f401d489c2acf2f75e98766fdbbbcac87d812ef1b7e2ea56cf0ade",
+      "context": "51ff3d241548aa69aecea224691a1dae35791a785871349426a697d5bc029097",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/fable51/test_time_simple/s4",
+      "candidate_sha256": "9948ea33baa381f5e8b65874b7c0b2ea8b9f35e3701b44dfc5c03191ffeeeed7",
+      "context": "0176550771533f1dfc8cf13e5fe457628a02dcc49df4c4640b83cee98eeab51c",
+      "generation": {
+        "dev_seed": 4,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/fable51/test_time_simple/s5",
+      "candidate_sha256": "8e3546afeb0cd35cfaec60112ed85868a4a48f528ba90e94565855dbf4c8d153",
+      "context": "38efe3bc3118f6d96d025c07ac0c5f1b8015373ba05613d4786cbd1c28562f7d",
+      "generation": {
+        "dev_seed": 5,
+        "enforce_token_budget": false,
+        "harness": "claude",
+        "model": "claude-fable-5-1",
+        "num_eval_episodes": 1024,
+        "reasoning_effort": "high",
+        "timeout_seconds": 7200,
+        "token_budget": 5000000
+      }
+    }
+  }
+}

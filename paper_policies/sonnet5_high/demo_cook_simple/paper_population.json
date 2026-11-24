@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "demo_cook_simple",
+  "model": "sonnet5_high",
+  "config_sha256": "0ec81048aeadf1897d790f0d3ce115c230adbc48fbc36e27a9f7c3704b220ac2",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/sonnet5_high/demo_cook_simple/s0",
+      "candidate_sha256": "17ffd7fa8425e2d9733071064ee25de4146ecb763d1f781b8720d549f0b4b89c",
+      "context": "283aeed2657f2c16dcad52d7ba622690de38a4cd5d59c485b2ac476255eed42f",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-sonnet-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/sonnet5_high/demo_cook_simple/s1",
+      "candidate_sha256": "06de012990791ba1109ddd98ecf4f52456cb3d6b554b7bc05290e71220993e54",
+      "context": "a88a5b020c431c44c890de028f67019e3b35bd22cf50ff8342091fc0ec0f5e4e",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-sonnet-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/sonnet5_high/demo_cook_simple/s2",
+      "candidate_sha256": "0f09289e3046163506da74911fd88cefb64169ab942bd2b6b9e4072b38e8ade7",
+      "context": "618705d2487a5b97e8fafee4164b7faa8adaa95ce3eaf93cf31ebbd07ee30e50",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-sonnet-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/sonnet5_high/demo_cook_simple/s3",
+      "candidate_sha256": "3fab589ba2b46783da91def6ae6ac4ace8a7e084dfdec7560b951f5739e0b31a",
+      "context": "de1533e02a09e19d50c35ab6661eef94d767ee7e5ba6d4042f72b2fe1cc14bfb",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-sonnet-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/sonnet5_high/demo_cook_simple/s4",
+      "candidate_sha256": "d6646299791248cce99e60fe76419ff93e06cd1c75ecda2018ade0ae0bd2edf9",
+      "context": "ecf5972ad046791d9db2cb3516b06dc603b507103b7a26b17b98c89e54c90be8",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-sonnet-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/sonnet5_high/demo_cook_simple/s5",
+      "candidate_sha256": "44a1cd0e7054f61b5fc08a6abbb9a8e4328b6a05f2dafd3bac35ea1a309b6e62",
+      "context": "904425c8be0d572b6a878492ccbcc80c5df009cfc93dfd7ae8328d70cdc37b92",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-sonnet-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

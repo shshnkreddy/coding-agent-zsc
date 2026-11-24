@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "hanabi_2p_h_group_level_1",
+  "model": "opus_high",
+  "config_sha256": "2a632acb97767403529aed91e7015ea429b827bb5c273a55baf6285d3b200687",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/opus_high/hanabi_2p_h_group_level_1/s0",
+      "candidate_sha256": "0716f3acd41b79f1855bea35c2e92b49b50e8e3afa923b3092974f3898875fb0",
+      "context": "364cb97b36c01acc55ae1e6c266d9caded304e8f288b410a59e797e297238781",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/opus_high/hanabi_2p_h_group_level_1/s1",
+      "candidate_sha256": "33179f3fa264666e548f546ef670c34e4a0c4a7f430e8f09bd3e682eb4918d11",
+      "context": "9594a161d3c55f3d4378e87e454fbb644d346622d474a379eafd00e1a88a0205",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/opus_high/hanabi_2p_h_group_level_1/s2",
+      "candidate_sha256": "70f5d28e5341b9d19b9549e220b6e5801fa559321aa68b13a85e01529c9cabcf",
+      "context": "3378a8bf076ac6d318470773135a7464e903a31eada045aeb9ee2ca2e8e7f290",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/opus_high/hanabi_2p_h_group_level_1/s3",
+      "candidate_sha256": "dd25516f024a554af2eb9f3786302e696e07c16805d18f831509341b55aff444",
+      "context": "6f41a692feadf740cfcb3cf8dc7c013cce12cf52462c39b005f6ec0267278d55",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/opus_high/hanabi_2p_h_group_level_1/s4",
+      "candidate_sha256": "53ab2cd4be11e75cefab3d8b3a4616d723db392772d0eb0b3206784c6f6c54b7",
+      "context": "e6c57c07b78dc5686ed70403018e57245944b96753aedfa0c3d6c75f9b37f310",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/opus_high/hanabi_2p_h_group_level_1/s5",
+      "candidate_sha256": "26b91a31e90b40ab95545d38cfcc85e42ff87f6f2189c23943703ab4ccb778ce",
+      "context": "98d147c2134485c6820ea8d6e16dcd16de78880e3f19b67c2e86612440ecb50a",
+      "generation": {
+        "harness": "claude",
+        "model": "claude-opus-5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

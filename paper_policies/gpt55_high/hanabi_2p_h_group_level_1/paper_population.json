@@ -1,0 +1,86 @@
+{
+  "format": "paper-xp-v1",
+  "environment": "hanabi_2p_h_group_level_1",
+  "model": "gpt55_high",
+  "config_sha256": "2a632acb97767403529aed91e7015ea429b827bb5c273a55baf6285d3b200687",
+  "policies": {
+    "seed-0": {
+      "seed": 0,
+      "paraphrase": "p0",
+      "archive_id": "XP/gpt55_high/hanabi_2p_h_group_level_1/s0",
+      "candidate_sha256": "70a5e8c24cff5bd50854ebda4437bb5466a3ca32f924514de34d25122093c2a1",
+      "context": "364cb97b36c01acc55ae1e6c266d9caded304e8f288b410a59e797e297238781",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-1": {
+      "seed": 1,
+      "paraphrase": "p1",
+      "archive_id": "XP/gpt55_high/hanabi_2p_h_group_level_1/s1",
+      "candidate_sha256": "415c8f364849cac68f9e8751aa8eb3bf54fbb9ba5f89675bc01a0297a38461fb",
+      "context": "9594a161d3c55f3d4378e87e454fbb644d346622d474a379eafd00e1a88a0205",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-2": {
+      "seed": 2,
+      "paraphrase": "p2",
+      "archive_id": "XP/gpt55_high/hanabi_2p_h_group_level_1/s2",
+      "candidate_sha256": "8166e751854147a5576f51129e71a4d64c8d85ba0f68b10fc31ae87ce52fee2d",
+      "context": "3378a8bf076ac6d318470773135a7464e903a31eada045aeb9ee2ca2e8e7f290",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-3": {
+      "seed": 3,
+      "paraphrase": "p3",
+      "archive_id": "XP/gpt55_high/hanabi_2p_h_group_level_1/s3",
+      "candidate_sha256": "67a55c09dacd62b316b4df544d947e97207aa45faa2d4778c7429f41720edd2e",
+      "context": "6f41a692feadf740cfcb3cf8dc7c013cce12cf52462c39b005f6ec0267278d55",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-4": {
+      "seed": 4,
+      "paraphrase": "p4",
+      "archive_id": "XP/gpt55_high/hanabi_2p_h_group_level_1/s4",
+      "candidate_sha256": "19c0c49565fef03afb4e763e713270db57de8e2e5a08823a635f400691d5540a",
+      "context": "e6c57c07b78dc5686ed70403018e57245944b96753aedfa0c3d6c75f9b37f310",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    },
+    "seed-5": {
+      "seed": 5,
+      "paraphrase": "p5",
+      "archive_id": "XP/gpt55_high/hanabi_2p_h_group_level_1/s5",
+      "candidate_sha256": "ed4171a51c3fdfaaa48accddce10c193b07345d5d1f57ab411390577762d7a2d",
+      "context": "98d147c2134485c6820ea8d6e16dcd16de78880e3f19b67c2e86612440ecb50a",
+      "generation": {
+        "harness": "codex",
+        "model": "gpt-5.5",
+        "provenance": "paper model registry; per-run clock metadata absent from consolidated archive",
+        "reasoning_effort": "high"
+      }
+    }
+  }
+}

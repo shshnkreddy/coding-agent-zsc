@@ -113,7 +113,21 @@ Seeds 0–5 use prompt variants p0–p5 respectively.
 
 ## Results
 
-Each model’s `reports/<environment>/xp.csv` is a 6 × 6 matrix. **SP** averages the six diagonal scores, where one policy plays both seats. **IXP** averages the 30 off-diagonal scores, where the seats use policies from different seeds. A heatmap and JSON summary sit beside the CSV. The final policies and experiment ledgers live under each environment’s `seed-0/` through `seed-5/` directories.
+The [final paper policies](paper_policies/) cover seven models, eleven environments, and six seeds. After installation, score a saved population directly from this checkout:
+
+```sh
+coding-zsc-xp paper_policies/astra_high/grounded_coord_simple/seed-* --output reports/astra
+```
+
+To compare two models on the same environment:
+
+```sh
+coding-zsc-between --env grounded_coord_simple \
+  --population astra=paper_policies/astra_high/grounded_coord_simple \
+  --population fable=paper_policies/fable51/grounded_coord_simple --output reports/astra-fable
+```
+
+Each model’s `reports/<environment>/xp.csv` is a 6 × 6 matrix. **SP** averages the six diagonal scores, where one policy plays both seats. **IXP** averages the 30 off-diagonal scores, where the seats use policies from different seeds. A heatmap and JSON summary sit beside the CSV. For newly generated runs, the final policies and experiment ledgers live under each environment’s `seed-0/` through `seed-5/` directories.
 
 <details>
 <summary><strong>Score existing runs</strong></summary>

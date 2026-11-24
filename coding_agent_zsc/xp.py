@@ -1,10 +1,11 @@
-"""Score frozen AutoAstra run directories, grouped by environment."""
+"""Score archived paper policies or frozen AutoAstra runs, grouped by environment."""
 import argparse
 import csv
 import fcntl
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
 import re
 import tempfile
@@ -16,29 +17,70 @@ from autoastra.sandbox.sandbox import _container_options, _docker
 from coding_agent_zsc.common import PRESETS, ZSC_ROOT
 
 
+def _read_run(directory):
+    result = json.loads((directory / 'result.json').read_text())
+    meta = result.get('zsc') or {}
+    preset = meta.get('environment', '')
+    if not isinstance(preset, str) or preset not in PRESETS:
+        raise ValueError(f'{directory}: unknown ZSC environment')
+    if not result.get('solution') or not result.get('selected') or result['status'] == 'failed':
+        raise ValueError(f'{directory}: missing valid final selection')
+    if (meta['interface'] != 'joint-policy-v1' or meta['config_sha256'] !=
+            hashlib.sha256((PRESETS[preset].directory / 'config.yaml').read_bytes()).hexdigest()):
+        raise ValueError(f'{directory}: incompatible environment configuration or policy interface')
+    digest = result['selected']['source_sha256']
+    source = (directory / 'task/workspace/final_solution.py').read_bytes()
+    if hashlib.sha256(source).hexdigest() != digest:
+        raise ValueError(f'{directory}: selected policy hash mismatch')
+    image = result['image_id']
+    row = dict(seed=result['seed'], paraphrase=meta['paraphrase'], sha256=digest,
+               image=image, selection=result['selection'])
+    return preset, row, source
+
+
+def _read_paper_policy(directory, manifest, image):
+    preset = manifest['environment']
+    if manifest['format'] != 'paper-xp-v1' or preset not in PRESETS:
+        raise ValueError(f'{directory}: unknown paper population format or environment')
+    config = PRESETS[preset].directory / 'config.yaml'
+    if hashlib.sha256(config.read_bytes()).hexdigest() != manifest['config_sha256']:
+        raise ValueError(f'{directory}: environment configuration differs from paper archive')
+    entry = manifest['policies'][directory.name]
+    if directory.name != f"seed-{entry['seed']}":
+        raise ValueError(f'{directory}: seed differs from paper manifest')
+    files = {'policy.py': (directory / 'policy.py').read_bytes()}
+    helper = directory / 'custom_primitives.py'
+    if helper.exists():
+        files[helper.name] = helper.read_bytes()
+    digest = hashlib.sha256()
+    for name, content in files.items():
+        digest.update(name.encode() + b'\0' + content + b'\0')
+    if digest.hexdigest() != entry['candidate_sha256']:
+        raise ValueError(f'{directory}: paper policy bundle hash mismatch')
+    row = dict(seed=entry['seed'], paraphrase=entry['paraphrase'], model=manifest['model'],
+               sha256=hashlib.sha256(files['policy.py']).hexdigest(), image=image,
+               selection='archived paper selection', archive_id=entry['archive_id'],
+               candidate_sha256=entry['candidate_sha256'], context=entry['context'])
+    return preset, row, files
+
+
 def read_population(directories):
     groups = {}
+    paper_image = None
     for directory in directories:
         directory = Path(directory).resolve()
-        result = json.loads((directory / 'result.json').read_text())
-        meta = result.get('zsc') or {}
-        preset = meta.get('environment', '')
-        if not isinstance(preset, str) or preset not in PRESETS:
-            raise ValueError(f'{directory}: unknown ZSC environment')
-        if not result.get('solution') or not result.get('selected') or result['status'] == 'failed':
-            raise ValueError(f'{directory}: missing valid final selection')
-        if (meta['interface'] != 'joint-policy-v1' or meta['config_sha256'] !=
-                hashlib.sha256((PRESETS[preset].directory / 'config.yaml').read_bytes()).hexdigest()):
-            raise ValueError(f'{directory}: incompatible environment configuration or policy interface')
-        digest = result['selected']['source_sha256']
-        source = (directory / 'task/workspace/final_solution.py').read_bytes()
-        if hashlib.sha256(source).hexdigest() != digest:
-            raise ValueError(f'{directory}: selected policy hash mismatch')
-        image = result['image_id']
-        if not re.fullmatch(r'sha256:[0-9a-f]{64}', image):
+        manifest = directory.parent / 'paper_population.json'
+        if (directory / 'result.json').is_file():
+            preset, row, source = _read_run(directory)
+        elif manifest.is_file():
+            if paper_image is None:
+                tag = os.environ.get('AUTOASTRA_ZSC_IMAGE', 'autoastra-zsc:cpu')
+                paper_image = _docker('image', 'inspect', '--format', '{{.Id}}', tag).stdout.strip()
+            preset, row, source = _read_paper_policy(directory, json.loads(manifest.read_bytes()), paper_image)
+        else:
+            raise ValueError(f'{directory}: expected an AutoAstra run or an archived paper seed directory')
+        if not re.fullmatch(r'sha256:[0-9a-f]{64}', row['image']):
             raise ValueError(f'{directory}: expected immutable Docker image ID')
-        row = dict(seed=result['seed'], paraphrase=meta['paraphrase'], sha256=digest,
-                   image=image, selection=result['selection'])
         groups.setdefault(preset, []).append((row, source))
     for preset, rows in groups.items():
         rows.sort(key=lambda pair: (pair[0]['seed'], pair[0]['paraphrase']))
@@ -53,8 +95,13 @@ def run_cell(preset, image, first, second, seed, episodes, resources, timeout):
     name = 'autoastra-xp-' + uuid.uuid4().hex
     with tempfile.TemporaryDirectory() as tmp:
         directory = Path(tmp).resolve()
-        (directory / 'a.py').write_bytes(first)
-        (directory / 'b.py').write_bytes(second)
+        for seat, source in [('a', first), ('b', second)]:
+            folder = directory / seat
+            folder.mkdir()
+            files = {'policy.py': source} if isinstance(source, bytes) else source
+            (folder / 'policy.py').write_bytes(files['policy.py'])
+            if 'custom_primitives.py' in files:
+                (folder / 'custom_primitives.py').write_bytes(files['custom_primitives.py'])
         try:
             run = _docker('run', '--rm', '--name', name, '--label', 'autoastra.managed=true',
                           *_container_options(resources, '/usr/local/bin:/usr/bin:/bin'),
