@@ -175,7 +175,7 @@ Reusing an output directory preserves completed populations and cached evaluatio
 
 ## Hybrid policies
 
-Two copies of the same neural policy play Hanabi together. They learn from their team score and from the moves a saved code policy would make in each seat.
+This method uses code policies to guide self-play training.
 
 ```text
                        LLM
