@@ -7,7 +7,7 @@ name = "coding-agent-zsc"
 version = "0.1.0"
 description = "Six-seed zero-shot coordination experiments with AutoAstra."
 requires-python = ">=3.11"
-dependencies = ["autoastra @ git+https://github.com/shshnkreddy/autoastra.git@301c3a0ab3346c2b008428407e1d97e460848bc3"]
+dependencies = ["autoastra==0.1.1"]
 
 [project.scripts]
 coding-zsc = "coding_agent_zsc.experiment:main"
