@@ -34,7 +34,26 @@ def population(root):
     return [root / f'seed-{seed}' for seed in SEEDS]
 
 
+def required_model_hosts(provider, model):
+    """Reject older AutoAstra builds rather than launch with general networking."""
+    try:
+        from autoastra.autoresearch.config import RunnerConfig
+        from autoastra.autoresearch.network import model_hosts
+        from autoastra.sandbox import SandboxConfig
+        if 'model_hosts' not in SandboxConfig.__dataclass_fields__:
+            raise ImportError('SandboxConfig lacks model-only networking')
+    except ImportError as error:
+        raise RuntimeError(
+            'This experiment requires AutoAstra with provider-only networking. '
+            'Install the updated AutoAstra checkout with '
+            '`python -m pip install --upgrade /path/to/AutoAstra` before launching. '
+            'No research runs have been started.'
+        ) from error
+    return model_hosts(RunnerConfig(provider=provider, model=model))
+
+
 def run_environment(preset, root, provider, model, args, selection):
+    hosts = required_model_hosts(provider, model)
     module = 'coding_agent_zsc.' + PRESETS[preset].path.replace('/', '.')
     task = importlib.import_module(module).p0
     dest = root / preset
@@ -42,6 +61,9 @@ def run_environment(preset, root, provider, model, args, selection):
                '--seeds', *map(str, SEEDS), '--paired-paraphrases', '--jobs', str(args.jobs),
                '--memory-mb', '4096',
                '--selection', selection, '--provider', provider, '--output', str(dest)]
+    # Explicit flags also make an incompatible child CLI reject the command.
+    for host in hosts:
+        command.extend(['--model-host', host])
     if model:
         command.extend(['--model', model])
     print(shlex.join(command), flush=True)
@@ -49,7 +71,8 @@ def run_environment(preset, root, provider, model, args, selection):
         return
     root.mkdir(parents=True, exist_ok=True)
     config = dict(provider=provider, model=model, selection=selection, image=task.image,
-                  budgets=task.run_config, seeds=list(SEEDS), config_sha256=task.task_spec['zsc']['config_sha256'])
+                  budgets=task.run_config, seeds=list(SEEDS), config_sha256=task.task_spec['zsc']['config_sha256'],
+                  network={'mode': 'model-provider-only', 'allowed_hosts': list(hosts)})
     record = root / (preset + '.json')
     if record.exists():
         if json.loads(record.read_text()) != config:

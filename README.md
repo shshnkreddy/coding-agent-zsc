@@ -81,6 +81,10 @@ pip install .
 docker build -t autoastra-zsc:cpu runtime/
 ```
 
+Installation pulls the tested AutoAstra Git revision pinned in `pyproject.toml`,
+which includes provider-only networking. This checkout does not depend on a new
+PyPI release. The launcher rejects older incompatible builds before starting research.
+
 ## Task previews
 
 After `pip install .`, you can inspect the sandbox tree and every file the agent sees. Creating a preview requires neither Docker nor model credentials. For example, to preview Hanabi H-Group for seed 0 with the paper’s selection rule:
@@ -137,6 +141,7 @@ Open `runs/cat-dog/reports/cat_dog/summary.json` for the self-play (SP) and cros
 | Development | Two hours per seed, unlimited tokens and evaluations. Each candidate gets 1,024 self-play episodes and a 600-second evaluation timeout. |
 | Selection | Uses the best development score. Pass `--selection model` to use the agent’s nominated revision. |
 | Parallelism | One model and environment at a time. `--jobs` controls concurrent seeds (1–6, default 1). |
+| Network | General internet is disabled. Only the selected model provider's HTTPS domains are reachable; evaluators remain offline. |
 | Held-out scoring | 1,024 episodes per ordered policy pair, with common root seed `2000003`. |
 
 Seeds 0–5 use prompt variants p0–p5 respectively.
