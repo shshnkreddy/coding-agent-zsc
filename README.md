@@ -81,9 +81,8 @@ pip install .
 docker build -t autoastra-zsc:cpu runtime/
 ```
 
-Installation pulls the tested AutoAstra Git revision pinned in `pyproject.toml`,
-which includes provider-only networking. This checkout does not depend on a new
-PyPI release. The launcher rejects older incompatible builds before starting research.
+Installation includes AutoAstra 0.1.1 from PyPI. General internet access is disabled
+by default.
 
 ## Task previews
 
