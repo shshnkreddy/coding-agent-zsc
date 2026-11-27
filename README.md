@@ -76,6 +76,11 @@ https://github.com/shshnkreddy/coding-agent-zsc
    build the Docker image needed to run the experiments.
 2. To create a new task, refer to AutoAstra's instructions:
    https://github.com/shshnkreddy/autoastra#setup-your-own-task
+3. If a run fails, inspect the logs and tell me exactly what failed and how
+   to fix it. Distinguish seed failures (such as API errors) from failures
+   during IXP computation. Resume affected seeds where supported, or retry
+   only the failed step, preserving completed work instead of restarting
+   all seeds. If resuming is not possible, explain why and what needs rerunning.
 ```
 
 ## Install on the execution host
