@@ -74,6 +74,8 @@ https://github.com/shshnkreddy/coding-agent-zsc
 1. Read the README. Help me install this project, AutoAstra, and my chosen
    coding agent, configure an API key or subscription login/token, and
    build the Docker image needed to run the experiments.
+2. To create a new task, refer to AutoAstra's instructions:
+   https://github.com/shshnkreddy/autoastra#setup-your-own-task
 ```
 
 ## Install on the execution host
