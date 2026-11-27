@@ -67,7 +67,13 @@ This codebase uses the autoresearch agent from [AutoAstra](https://github.com/sh
 Paste this into your coding agent from the repository checkout:
 
 ```text
-Set up this repository on my Linux Docker host.
+I want to use coding agents to generate coordination policies as code.
+Help me set up this repository on my Linux Docker host:
+https://github.com/shshnkreddy/coding-agent-zsc
+
+1. Read the README. Help me install this project, AutoAstra, and my chosen
+   coding agent, configure an API key or subscription login/token, and
+   build the Docker image needed to run the experiments.
 ```
 
 ## Install on the execution host
